@@ -51,7 +51,7 @@ select locations for use on my private server.
 ![](/assets/img/projects/sql-azerothcoremall/960-azerothcoremall5.jpg){:.figure}
 
 {:.image-caption}
-*Vendors anything and everything*
+*Vendors for anything and everything*
 
 ![](/assets/img/projects/sql-azerothcoremall/960-azerothcoremall6.jpg){:.figure}
 
