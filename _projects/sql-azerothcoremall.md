@@ -83,4 +83,4 @@ select locations for use on my private server.
 ------------------------------------------------------------------------------------------------------------------
 - v2017.09.14 - Release
 
-{% include archived-sql.md %}}
+{% include archived-sql.md %}

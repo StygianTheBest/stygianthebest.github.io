@@ -2,6 +2,9 @@
 ------------------------------------------------------------------------------------------------------------------
 [![Black Lotus. Stygian.. the best!](/assets/img/avatar/960-stygianthebest.jpg)](https://www.youtube.com/watch?v=fERCwTTOU3M&feature=youtu.be&t=126 "Black Lotus. Stygian.. the best!")
 
+{:.image-caption}
+*Black Lotus. Stygian.. the best!*
+
 
 ### AzerothCore ###
 ------------------------------------------------------------------------------------------------------------------
