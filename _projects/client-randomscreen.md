@@ -25,7 +25,7 @@ description: >
 
 ### Description ###
 ---
-This is my collectiom of five animated login screens with custom music. A random screen will be chosen each time 
+This is my collection of five animated login screens with custom music. A random screen will be chosen each time 
 you launch WoW.
 
 <br />
