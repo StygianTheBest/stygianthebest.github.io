@@ -28,6 +28,7 @@ description: >
 This is my collectiom of five animated login screens with custom music. A random screen will be chosen each time 
 you launch WoW.
 
+
 <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/tGy4dMr9OhU" frameborder="0" allowfullscreen></iframe>
 
 {:.image-caption}
@@ -57,7 +58,7 @@ rand = X where X is a number in the range of the screen you want in x_vars_init.
 
 ### Installation ###
 ------------------------------------------------------------------------------------------------------------------
-- Copy the Interface folder into your WoW/Data/ folder
+- Copy the Interface folder into your WoW folder
 - Unzip and use the modified Wow.exe to launch the game.
 - You will need to adjust the IP Address to your private server in the LoginUI.lua file.
 - The visual FX objects are mapped based on screen resolution, so they may need to be tweaked. This can be done by 
