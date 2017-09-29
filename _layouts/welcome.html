@@ -1,0 +1,99 @@
+---
+layout: about
+---
+
+<!--[if gt IE 8]><!---->
+<style>{% capture include_to_scssify %}{% include pro/styles/projects.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>
+<!--<![endif]-->
+
+{{ content }}
+
+{% if page.selected_projects %}
+  <h2>Selected Projects</h2>
+  {% assign is_newline = true %}
+  {% for project_path in page.selected_projects %}
+    {% assign project = site.projects | where:"path", project_path | first %}
+
+    {% if is_newline %}<div class="grid">{% endif %}
+
+    <div class="col col-1-2">
+      {% if project %}
+        {% include pro/project-card.html project=project %}
+      {% else %}
+        Project with path <code>{{ project_path }}</code> not found.
+      {% endif %}
+    </div>
+
+    {% unless is_newline %}</div>{% endunless %}
+
+    {% if forloop.last %}
+      {% if is_newline %}</div>{% endif %}
+    {% endif %}
+
+    {% if is_newline %}
+      {% assign is_newline = false %}
+    {% else %}
+      {% assign is_newline = true %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  <h2>Recent Projects</h2>
+  {% assign ordered_projects = site.projects | sort:"date" | reverse %}
+  {% assign is_newline = true %}
+  {% for project in ordered_projects limit:2 %}
+    {% if is_newline %}<div class="grid">{% endif %}
+
+    <div class="col col-1-2">{% include pro/project-card.html project=project %}</div>
+
+    {% unless is_newline %}</div>{% endunless %}
+
+    {% if forloop.last %}
+      {% if is_newline %}</div>{% endif %}
+    {% endif %}
+
+    {% if is_newline %}
+      {% assign is_newline = false %}
+    {% else %}
+      {% assign is_newline = true %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if page.more_projects %}
+  {% assign more_projects = site.pages | where:"path", page.more_projects | first %}
+  {% if more_projects %}
+    <p class="read-more" style="margin-top:0">See <a class="heading" href="{{ more_projects.url | relative_url }}" data-flip="title">{{ more_projects.title }}</a> for more</p>
+  {% else %}
+    Page with path <code>{{ page.more_posts }}</code> not found.
+  {% endif  %}
+{% endif %}
+
+{% if page.selected_posts %}
+  <h2 class="hr">Selected Posts</h2>
+  <ul class="related-posts" style="margin-bottom:2rem">
+    {% for post_path in page.selected_posts %}
+      {% assign post = site.posts | where:"path", post_path | first %}
+      {% if post %}
+        {% include post-list-item.html post=post %}
+      {% else %}
+        <li>Post with path <code>{{ post_path }}</code> not found.</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% else %}
+  <h2 class="hr">Recent Posts</h2>
+  <ul class="related-posts" style="margin-bottom:2rem">
+    {% for post in site.posts limit:5 %}
+      {% include post-list-item.html post=post %}
+    {% endfor %}
+  </ul>
+{% endif %}
+
+{% if page.more_posts %}
+  {% assign more_posts = site.pages | where:"path", page.more_posts | first %}
+  {% if more_posts %}
+    <p class="read-more">See <a class="heading" href="{{ more_posts.url | relative_url }}" data-flip="title">{{ more_posts.title }}</a> for more</p>
+  {% else %}
+    Page with path <code>{{ page.more_posts }}</code> not found.
+  {% endif  %}
+{% endif %}

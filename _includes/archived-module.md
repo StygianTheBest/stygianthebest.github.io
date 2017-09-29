@@ -1,0 +1,2 @@
+**NOTE**: This project is marked as `archived.` This means that this *page* may be limited or inaccurate, most likely due to updates that have been pushed to the [source repository](https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Modules){:target="_blank"}. In addition, downloads may be missing and/or incomplete if links have expired or files have been deleted or migrated to a new host.
+{:.message}

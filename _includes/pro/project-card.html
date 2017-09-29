@@ -1,0 +1,22 @@
+{% assign project = include.project %}
+
+<div class="card">
+  <a href="{{ project.url | relative_url }}" class="no-hover" data-flip="project">
+    <div class="img sixteen-nine">
+      {% if project.screenshot %}
+        {%
+          include srcset-img.html
+          img=project.screenshot
+          alt="Thumbnail"
+          sizes="(min-width: 92em) 22.5rem, (min-width: 60em) 19.5rem, (min-width: 54em) 32rem, (min-width: 40em) 17.25rem, 100vw"
+        %}
+      {% endif %}
+    </div>
+  </a>
+  <h3 class="name">
+    <a href="{{ project.url | relative_url }}" data-flip="title">{{ project.title }}</a>
+  </h3>
+  {% if project.caption %}
+    <div class="caption">{{ project.caption | markdownify }}</div>
+  {% endif %}
+</div>

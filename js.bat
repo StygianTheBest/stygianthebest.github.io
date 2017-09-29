@@ -1,0 +1,3 @@
+@ECHO OFF
+ECHO Jekyll Serve...
+bundle exec jekyll serve --watch --incremental --force_polling

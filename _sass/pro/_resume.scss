@@ -1,0 +1,138 @@
+main {
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-top: 1rem;
+  }
+
+  .h4 {
+    margin-top: 0;
+  }
+
+  .subline {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .heading {
+    line-height: 1.55;
+  }
+
+  header > p {
+    margin-bottom: 0;
+  }
+}
+
+.tags {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 -0.625rem 1.5rem;
+  clear: right;
+}
+
+.tag {
+  border: 1px solid #ddd;
+  display: inline-block;
+  margin: 0.25rem 0.125rem;
+  padding: 0.125rem 0.5rem;
+  color: $gray-text;
+  line-height: 1.4;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.help {
+  cursor: help;
+}
+
+.symbol {
+  float: right;
+  color: #ddd;
+  margin-top: 4px;
+}
+
+.skills {
+  dt {
+    margin-bottom: 0;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+.contact {
+  margin-top: 2.5rem;
+
+  dt, dd {
+    margin-bottom: .5rem;
+  }
+
+  dt {
+    clear: both;
+    float: left;
+    width: 2rem;
+    // text-align: center;
+
+    [class*="icon-"] {
+      font-size: 1.17rem;
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  dd {
+    float: left;
+    margin-left: 0;
+    width: calc(100% - 2rem);
+    padding-left: 0.25rem;
+  }
+}
+
+$pad: 2.5rem;
+
+.grid {
+  margin-left: -$pad;
+
+  &::after {
+    @include clearfix();
+  }
+}
+
+.col {
+  float: left;
+  padding-left: $pad;
+  width: 100%;
+}
+
+@media screen and (min-width: 64em) {
+  .col-3-5 { width: 60% }
+  .col-2-5 { width: 40% }
+}
+
+// @media screen and (min-width: $break-point-2) {
+//   dt {
+//     text-align: left;
+//   }
+// }
+
+.mt3 {
+  margin-top: 3rem;
+}
+
+// cite
+.ref {
+  margin-bottom: 1.5rem;
+
+  > footer {
+    margin-bottom: 0;
+  }
+}

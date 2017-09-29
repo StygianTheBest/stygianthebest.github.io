@@ -1,0 +1,74 @@
+---
+layout: base
+---
+
+<!--[if gt IE 8]><!---->
+<style>{% capture include_to_scssify %}{% include pro/styles/projects.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>
+<!--<![endif]-->
+
+{% assign project = page %}
+
+<article class="page" role="article">
+  <header>
+    <h1 class="page-title">{{ project.title }}</h1>
+
+    <p class="post-date heading">
+      {% assign parent = site.pages | where:"show_collection",project.collection | first %}
+      {% if parent %}
+        <a href="{{ '/projects/' | relative_url }}" data-flip="title">{{ parent.title }}</a>
+        |
+      {% endif %}
+      <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }}</time>
+      <span style="float:right">
+        <span class="sr-only">Links:</span>
+        {% for link in project.links %}
+          <a href="{{ link.url }}">{{ link.title }}</a>
+          {% unless forloop.last %}|{% endunless %}
+        {% endfor %}
+      </span>
+    </p>
+
+    <div class="img lead sixteen-nine">
+      {% if project.screenshot %}
+        {%
+          include srcset-img.html
+          img=project.screenshot
+          alt="Screenshot"
+          sizes="(min-width: 92em) 48rem, (min-width: 54em) 42rem, (min-width: 40em) 37.5rem, 100vw"
+        %}
+      {% endif %}
+    </div>
+
+    {% include message.html text=project.description %}
+  </header>
+
+  {{ content }}
+
+</article>
+
+{% unless include.link_title %}
+  <hr class="dingbat" />
+{% endunless %}
+
+{% include about.html %}
+
+{% assign p1 = page.previous | default:page.next.next %}
+{% assign p2 = page.next | default:page.previous.previous %}
+{% if p1 or p2 %}
+  <h2>Other Projects</h2>
+  <div class="grid">
+    {% assign p1 = page.previous | default:page.next.next %}
+    {% if p1 %}
+      <div class="col col-1-2">
+        {% include pro/project-card.html project=p1 %}
+      </div>
+    {% endif %}
+
+    {% assign p2 = page.next | default:page.previous.previous %}
+    {% if p2 %}
+      <div class="col col-1-2">
+        {% include pro/project-card.html project=p2 %}
+      </div>
+    {% endif %}
+  </div>
+{% endif %}

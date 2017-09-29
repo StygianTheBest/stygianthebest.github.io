@@ -1,0 +1,88 @@
+$pad: 1rem;
+
+.grid {
+  margin-left: -$pad;
+  display: flex;
+  flex-wrap: wrap;
+
+  &::after {
+    @include clearfix();
+  }
+}
+
+.col {
+  float: left;
+  padding-left: $pad;
+  margin-bottom: $pad;
+  width: 100%;
+  display: flex;
+}
+
+@media screen and (min-width: $break-point-1) {
+  .col-1-2 { width: 50%; }
+}
+
+@media screen and (min-width: $break-point-2) {
+  .col-1-2 { width: 100%; }
+}
+
+@media screen and (min-width: $break-point-3) {
+  .col-1-2 { width: 50%; }
+}
+
+@media print {
+  .grid {
+    display: block;
+  }
+
+  .col {
+    display: block;
+    width: 50%;
+  }
+}
+
+.card {
+  width: 100%;
+  background: #fff;
+  border: 1px solid $border-color-light;
+  text-align: center;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1rem;
+  contain: content;
+  overflow: hidden;
+  border-radius: .25rem;
+
+  page-break-inside: avoid;
+
+  > a > .img {
+    margin-bottom: 0;
+    border-bottom: 1px solid $border-color-light;
+    border-top: 1px solid $border-color-light;
+    position: relative;
+    top: -1px;
+  }
+
+  > .name, > .caption {
+    padding: 0 1rem;
+  }
+
+  > .name {
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+    color: inherit;
+  }
+
+  > .caption {
+    margin: 0.25rem 0;
+
+    font-size: smaller;
+    color: $gray-text;
+
+    > p {
+      margin-bottom: 0;
+    }
+  }
+}

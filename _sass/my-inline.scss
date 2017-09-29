@@ -1,0 +1,68 @@
+// Uncomment below to remove border radius on projects and pagination items (pre v6.5)
+/*
+.card, .pagination-item {
+  border-radius: 0!important;
+}
+*/
+
+// Uncomment below to restore the old (pre v6.5) sidebar
+/*
+@media screen {
+  .sidebar-sticky {
+    left: 2rem;
+    max-width: none;
+  }
+}
+*/
+
+
+/*
+-----------------------
+- Images
+-----------------------
+*/
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.center-video 
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  border: 3px solid #eee;
+  border-radius: 10px;
+}
+
+img.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.figure {
+  max-width: 100%;
+  border: 3px solid #eee;
+  border-radius: 10px;
+}
+
+.image-caption 
+{
+	diplay: block;
+	text-align: center;
+	font-size: .8rem;
+	color: light-grey;
+}

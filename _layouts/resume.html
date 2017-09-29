@@ -1,0 +1,386 @@
+---
+layout: base
+---
+
+<!--[if gt IE 8]><!---->
+<style>{% capture include_to_scssify %}{% include pro/styles/resume.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>
+<!--<![endif]-->
+
+{% assign resume = site.data.resume %}
+
+<article class="page" role="article">
+  {% assign basics = resume.basics %}
+
+  {% if basics.picture.size > 0 %}
+    {% include srcset-img.html class="me" img=basics.picture alt=basics.name %}
+  {% endif %}
+
+  <header class="hr">
+    <h1 class="page-title">{{ basics.name }}</h1>
+    {% if basics.label %}
+      <p class="h3 faded subline">{{ basics.label }}</p>
+    {% endif %}
+  </header>
+
+  {% if basics.summary.size > 0 %}
+    {{ basics.summary | markdownify }}
+  {% endif %}
+
+  <dl class="grid contact">
+    <div class="col col-3-5">
+      {% assign location = basics.location %}
+      {% if
+        location.address.size > 0 or
+        location.postalCode.size > 0 or
+        location.city.size > 0 or
+        location.region.size > 0 or
+        location.countryCode.size > 0
+      %}
+        <dt class="faded">
+          <span class="icon-location" title="Location"></span>
+          <span class="sr-only">Location:</span>
+        </dt>
+
+        <dd class="h4">
+          {% if location.address.size > 0 %}
+            {{ location.address }},
+          {% endif %}
+
+          {% if location.postalCode.size > 0 %}
+            {{ location.postalCode }},
+          {% endif %}
+
+          {% if location.city.size > 0 %}
+            {{ location.city }},
+          {% endif %}
+
+          {% if location.region.size > 0 %}
+            {{ location.region }},
+          {% endif %}
+
+          {% if location.countryCode.size > 0 %}
+            {% assign countryCode = location.countryCode | upcase %}
+            {% assign country = site.data.countries | where:"code", countryCode | first %}
+            {% if country %}
+              {{ country.name }}
+            {% else %}
+              {{ location.countryCode }}
+            {% endif %}
+          {% endif %}
+        </dd>
+      {% endif %}
+
+      {% if basics.email.size > 0 %}
+        <dt class="faded">
+          <span class="icon-envelop" title="Email"> </span>
+          <span class="sr-only">Email:</span>
+        </dt>
+        <dd class="h4">
+          <a href="mailto:{{ basics.email }}" class="no-push-state">{{ basics.email }}</a>
+        </dd>
+      {% endif %}
+
+      {% if basics.phone.size > 0 %}
+        <dt class="faded">
+          <span class="icon-phone" title="Phone"></span>
+          <span class="sr-only">Phone:</span>
+        </dt>
+        <dd class="h4">
+          <a href="tel:{{ basics.phone }}" class="no-push-state">{{ basics.phone }}</a>
+        </dd>
+      {% endif %}
+
+      {% if basics.website.size > 0 %}
+        <dt class="faded">
+          <span class="icon-link" title="Website"></span>
+          <span class="sr-only">Website:</span>
+        </dt>
+        <dd class="h4">
+          <a href="{{ basics.website }}">{{ basics.website }}</a>
+        </dd>
+      {% endif %}
+    </div>
+
+    {% if basics.profiles.size > 0 %}
+      <div class="col col-2-5">
+        {% for pro in basics.profiles %}
+          {% assign platform = pro.network | downcase %}
+          {% assign = data_social = site.data.social[platform] %}
+          {% assign icon = data_social.icon %}
+          {% if data_social.name %}
+            {% assign name = data_social.name %}
+          {% else %}
+            {% assign name = pro.network %}
+          {% endif %}
+          <dt class="faded">
+            <span class="{{ icon | default:'icon-link' }}" title="{{ name }}"></span>
+            <span class="sr-only">{{ name }}:</span>
+          </dt>
+          <dd class="h4">
+            {% include link.html href=pro.url title=pro.username %}
+          </dd>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </dl>
+
+  <div class="grid">
+    <div class="col col-3-5">
+      {% if resume.work.size > 0 %}
+        <h2 class="h3 faded hr">Experience <span class="symbol icon-briefcase"></span></h2>
+        {% for work in resume.work %}
+          <header class="{% unless forloop.first %}mt3{% endunless %}">
+            <p class="heading faded">
+              <time datetime="{{ work.startDate }}">{{ work.startDate | date: "%b %Y"  }}</time>
+              –
+              <time datetime="{{ work.endDate }}">{{ work.endDate | date: "%b %Y" }}</time>
+            </p>
+            <h3 class="h4">
+              <span>{{ work.position }}</span>
+              <span class="faded"> at </span>
+              {% include link.html title=work.company href=work.website %}
+            </h3>
+          </header>
+
+          {% include message.html text=work.summary %}
+
+          <h4 class="sr-only">Highlights</h4>
+          <ul>
+            {% for highlight in work.highlights %}
+              <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+
+      {% endif %}
+
+      {% if resume.volunteer.size > 0 %}
+        <h2 class="h3 faded hr">Volunteer <span class="symbol icon-earth"></span></h2>
+        {% for vol in resume.volunteer %}
+          <header class="{% unless forloop.first %}mt3{% endunless %}">
+            <p class="heading faded">
+              <time datetime="{{ vol.startDate }}">{{ vol.startDate | date: "%b %Y"  }}</time>
+              –
+              <time datetime="{{ vol.endDate }}">{{ vol.endDate | date: "%b %Y"  }}</time>
+            </p>
+            <h3 class="h4">
+              <span>{{ vol.position }}</span>
+              <span class="faded"> at </span>
+              {% include link.html title=vol.organization href=vol.website %}
+            </h3>
+          </header>
+
+          {% include message.html text=vol.summary %}
+
+          <h4 class="sr-only">Highlights</h4>
+          <ul>
+            {% for highlight in vol.highlights %}
+              <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+
+      {% endif %}
+
+      {% if resume.education.size > 0 %}
+        <h2 class="h3 faded hr">Education <span class="symbol icon-library"></span></h2>
+        {% for edu in resume.education %}
+          <header class="{% unless forloop.first %}mt3{% endunless %}">
+            <p class="heading faded">
+              <time datetime="{{ edu.startDate }}">{{ edu.startDate | date: "%b %Y"  }}</time>
+              –
+              <time datetime="{{ edu.endDate }}">{{ edu.endDate | date: "%b %Y"  }}</time>
+            </p>
+            <h3 class="h4">
+              <span>{{ edu.studyType }}</span>
+              {% if edu.area.size > 0 %}
+                <span class="faded"> in </span>
+                <span>{{ edu.area }}</span>
+              {% endif %}
+              {% if edu.institution.size > 0 %}
+                <span class="faded"> at </span>
+                <span>{{ edu.institution }}</span>
+              {% endif %}
+              {% if edu.gpa.size > 0 %}
+                <span class="faded"> with GPA of </span>
+                <span>{{ edu.gpa }}</span>
+              {% endif %}
+            </h3>
+          </header>
+
+          <h4 class="faded" style="margin-top:0">Courses</h4>
+          <ul>
+            {% for course in edu.courses %}
+              <li>{{ course }}</li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+
+      {% endif %}
+
+      {% if resume.awards.size > 0 %}
+        <h2 class="h3 faded hr">Awards <span class="symbol icon-trophy"></span></h2>
+        {% for awa in resume.awards %}
+          <header class="{% unless forloop.first %}mt3{% endunless %}">
+            <p class="heading faded">
+              <time datetime="{{ awa.date }}">{{ awa.date | date: "%b %Y"  }}</time>
+            </p>
+            <h3 class="h4">
+              <span>{{ awa.title }}</span>
+              {% if awa.awarder.size > 0 %}
+                <span class="faded"> by </span>
+                <span>{{ awa.awarder }}</span>
+              {% endif %}
+            </h3>
+          </header>
+
+          {% include message.html text=awa.summary %}
+        {% endfor %}
+
+      {% endif %}
+
+      {% if resume.publications.size > 0 %}
+        <h2 class="h3 faded hr">Publications <span class="symbol icon-book"></span></h2>
+        {% for pub in resume.publications %}
+          <header class="{% unless forloop.first %}mt3{% endunless %}">
+            <p class="heading faded">
+              <time datetime="{{ pub.releaseDate }}">{{ pub.releaseDate | date: "%b %Y"  }}</time>
+            </p>
+            <h3 class="h4">
+              {% include link.html title=pub.name href=pub.website %}
+              {% if pub.publisher.size > 0 %}
+                <span class="faded"> by </span>
+                <span>{{ pub.publisher }}</span>
+              {% endif %}
+            </h3>
+          </header>
+
+          {% include message.html text=pub.summary %}
+        {% endfor %}
+
+      {% endif %}
+
+      {% if resume.references.size > 0 %}
+        <h2 class="h3 faded hr">References <span class="symbol icon-quotes-right"></span></h2>
+        {% for ref in resume.references %}
+          <blockquote class="ref">
+            <p>{{ ref.reference }}</p>
+            <footer>— <cite>{{ ref.name }}</cite></footer>
+          </blockquote>
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    <div class="col col-2-5">
+      {% if resume.languages.size > 0 %}
+        <h2 class="h3 faded hr">Languages <span class="symbol icon-bubbles"></span></h2>
+        <dl class="skills">
+          {% for lng in resume.languages %}
+            <dt class="h4 fl">{{ lng.language }}</dt>
+            <dd class="faded clearafter">
+              <div class="heading fr" style="margin-bottom:0.5rem">
+                <span class="sr-only">Fluency:</span>
+                {% assign fluency = lng.fluency | slugify %}
+                {% case fluency %}
+                  {% when 5 or "native-or-bilingual-proficiency" %}
+                    <span class="help" title="{{ lng.fluency }}">
+                      <span class="sr-only">{{ lng.fluency }}</span>
+                      <span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span>
+                    </span>
+                  {% when 4 or "full-professional-proficiency" %}
+                    <span class="help" title="{{ lng.fluency }}">
+                      <span class="sr-only">{{ lng.fluency }}</span>
+                      <span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-half"></span>
+                    </span>
+                  {% when 3 or "professional-working-proficiency" %}
+                    <span class="help" title="{{ lng.fluency }}">
+                      <span class="sr-only">{{ lng.fluency }}</span>
+                      <span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span>
+                    </span>
+                  {% when 2 or "limited-working-proficiency" %}
+                    <span class="help" title="{{ lng.fluency }}">
+                      <span class="sr-only">{{ lng.fluency }}</span>
+                      <span class="icon-star-full"></span><span class="icon-star-half"></span><span class="icon-star-empty"></span>
+                    </span>
+                  {% when 1 or "elementary-proficiency" %}
+                    <span class="help" title="{{ lng.fluency }}">
+                      <span class="sr-only">{{ lng.fluency }}</span>
+                      <span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+                    </span>
+                  {% when 0 or "no-proficiency" %}
+                    <span class="help" title="{{ lng.fluency }}">
+                      <span class="sr-only">{{ lng.fluency }}</span>
+                      <span class="icon-star-half"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+                    </span>
+                  {% else %}
+                    {{ lng.fluency }}
+                {% endcase %}
+              </div>
+            </dd>
+          {% endfor %}
+        </dl>
+      {% endif %}
+
+      {% if resume.skills.size > 0 %}
+        <h2 class="h3 faded hr">Skills <span class="symbol icon-wrench"></span></h2>
+        <dl class="skills">
+          {% for skl in resume.skills %}
+            <dt class="h4 fl">{{ skl.name }}</dt>
+            <dd class="faded">
+              <div class="heading fr clearafter" style="margin-bottom:0.5rem">
+                <span class="sr-only">Level:</span>
+                {% assign level = skl.level | slugify %}
+                {% case level %}
+                  {% when 3 or "master" or "expert" or "senior" %}
+                    <span class="help" title="{{ skl.level }}">
+                      <span class="sr-only">{{ skl.level }}</span>
+                      <span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-full"></span>
+                    </span>
+                  {% when 2 or "intermediate" or "amateur"  %}
+                    <span class="help" title="{{ skl.level }}">
+                      <span class="sr-only">Intermediate</span>
+                      <span class="icon-star-full"></span><span class="icon-star-full"></span><span class="icon-star-empty"></span>
+                    </span>
+                  {% when 1 or "beginner" or "novice" or "junior" %}
+                    <span class="help" title="{{ skl.level }}">
+                      <span class="sr-only">{{ skl.level }}</span>
+                      <span class="icon-star-full"></span><span class="icon-star-empty"></span><span class="icon-star-empty"></span>
+                    </span>
+                  {% else %}
+                    {{ skl.level }}
+                {% endcase %}
+              </div>
+              {% if skl.keywords.size > 0 %}
+              <div>
+                <span class="sr-only">Keywords:</span>
+                <ul class="tags">
+                  {% for key in skl.keywords %}
+                    <li class="tag">{{ key }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+              {% endif %}
+            </dd>
+          {% endfor %}
+        </dl>
+      {% endif %}
+
+      {% if resume.interests.size > 0 %}
+        <h2 class="h3 faded hr">Interests <span class="symbol icon-heart"></span></h2>
+        <dl class="skills">
+          {% for int in resume.interests %}
+            <dt class="h4">{{ int.name }}</dt>
+            <dd>
+              <span class="sr-only">Keywords: </span>
+              <ul class="tags">
+                {% for key in int.keywords %}
+                  <li class="tag">{{ key }}</li>
+                {% endfor %}
+              </ul>
+            </dd>
+          {% endfor %}
+        </dl>
+      {% endif %}
+    </div>
+  </div>
+</article>

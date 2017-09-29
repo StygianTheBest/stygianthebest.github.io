@@ -1,0 +1,40 @@
+---
+layout: page
+---
+
+<!--[if gt IE 8]><!---->
+<style>{% capture include_to_scssify %}{% include pro/styles/projects.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>
+<!--<![endif]-->
+
+{% assign ordered_projects = site[page.show_collection] | sort:"date" | reverse %}
+{% assign is_newline = true %}
+
+{% for project in ordered_projects %}
+  {% assign currentdate = project.date | date: "%Y" %}
+
+  {% if currentdate != date %}
+    {% unless forloop.first %}
+      {% unless is_newline %}</div>{% endunless %}
+      {% assign is_newline = true %}
+    {% endunless %}
+
+    <h2 id="y{{project.date | date: "%Y"}}">{{ currentdate }}</h2>
+    {% assign date = currentdate %}
+  {% endif %}
+
+  {% if is_newline %}<div class="grid">{% endif %}
+
+  <div class="col col-1-2">{% include pro/project-card.html project = project %}</div>
+
+  {% unless is_newline %}</div>{% endunless %}
+
+  {% if forloop.last %}
+    {% if is_newline %}</div>{% endif %}
+  {% endif %}
+
+  {% if is_newline %}
+    {% assign is_newline = false %}
+  {% else %}
+    {% assign is_newline = true %}
+  {% endif %}
+{% endfor %}
