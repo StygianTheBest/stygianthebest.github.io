@@ -38,12 +38,11 @@ select locations for use on my private server.
 - This mall is based on TrinityCore Triforce Mall v3.7
 - This mall includes Rownan's Level 19 Twink Vendors
 - This mall includes custom vendors by StygianTheBest
-- This mall includes custom pricing data for all vendor items
+- This mall includes custom pricing for some items
 - All NPCs are spawned on GMIsland
 - The following custom NPC groups are also spawned:
 	- Elven Gem Vendors (Moonglade)
 	- Mage Glyph Vendors (Undercity)
-- Item prices for specific items have been fixed
 
 
 ### Images ###
