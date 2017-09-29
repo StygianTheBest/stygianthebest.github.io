@@ -1,7 +1,7 @@
 ---
 layout: project
 date: 2017 September 29
-title: 'Animated Random Login Screen'
+title: 'Animated Random Login Screens'
 caption: 'A 3.3.5a client modification'
 comments: true
 
