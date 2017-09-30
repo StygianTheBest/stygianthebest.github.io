@@ -69,6 +69,6 @@ on a Hunter in or out of dungeons.
     - Added Pet: Spore Bat
     - Updated pet models to rare spawn models
 - v2017.09.13 - Teaches additional hunter spells (Eagle Eye, Eyes of the Beast, Beast Lore)
-
+- v2017.09.30 - Add pet->InitLevelupSpellsForLevel(); recommended by Alistar
 
 {% include archived-module.md %}
