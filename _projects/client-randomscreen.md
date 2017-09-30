@@ -1,7 +1,7 @@
 ---
 layout: project
 date: 2017 September 29
-title: 'Animated Random Login Screens'
+title: 'Random Animated Login Screens'
 caption: 'A 3.3.5a client modification'
 comments: true
 
@@ -32,7 +32,7 @@ you launch WoW.
 <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/tGy4dMr9OhU" frameborder="0" allowfullscreen></iframe>
 
 {:.image-caption}
-*Random Animated Loading Screens*
+*Random Animated Login Screens*
 
 
 ### Features ###
@@ -46,6 +46,14 @@ you launch WoW.
 - You can adjust how often a specific screen appears by editing the random value range. I currenly have Dead King's 
 Crypt loading 60% of the time because it's my favorite. If you want one screen to show every time, just set the 
 rand = X where X is a number in the range of the screen you want in x_vars_init.
+
+
+### Trivia ###
+------------------------------------------------------------------------------------------------------------------
+These were created manually because the [Mordred](http://www.modcraft.io/index.php?topic=8694.0){:target="_blank"} 
+tool wasn't compatible with my other login screen modifications, and I wasn't interested in trying to make it 
+compatible at the time. For some reason, no matter what I did, the bassist in the Tauren Chieftains would not 
+position correctly, so I added a crate to the scene to make it appear like he had his foot on it. \m/
 
 
 ### Files ###
