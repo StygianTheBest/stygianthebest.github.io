@@ -37,23 +37,24 @@ player.
 - Gives items and/or gold to players if they enter the correct code
 - Reads/Writes code data from the database
 - Supports alpha-numeric codes
-- Allows unique codes to be given out only once
+- Supports multi-item codes
+- Supports # of charges per code
+- Supports unique codes to be given out only once to any player
 - Checks for already redeemed codes
-- Codes have charges that can prevent the code from being used more than X times
-- Supports multiple items per code
-- The database is checked for the # of charges the player has used
-	
+- Checks for # of charges used
+
 
 ### To-Do ###
 ------------------------------------------------------------------------------------------------------------------
+- Allow GM interaction with NPC to create, edit, and disable codes in game
 - If possible, create a way to prevent players from trading codes
 - Figure out a better way to handle codes multi-item codes with multiple charges
-	- ex) You create a code that gives the player 3 items and can be used 3 times
-	- A 3 item code with 3 charges MUST have charges set to 9 for each item
-	- The first time the code is used it will record 3 items in the database with that code 
-	- The second time the code is used the database is checked for # of items with that code and returns 3
-	- So, to allow 3 uses of the code, we need to set the # of charges to: # of charges * # of items (3 x 3 = 9)
-
+    - ex) You create a code that gives the player 3 items and can be used 3 times
+    - A 3 item code with 3 charges MUST have charges set to 9 for each item
+    - The first time the code is used it will record 3 items in the database with that code
+    - The second time the code is used the database is checked for # of items with that code and returns 3
+    - So, to allow 3 uses of the code, we need to set the # of charges to: # of charges * # of items (3 x 3 = 9)
+	
 
 ### Data ###
 ------------------------------------------------------------------------------------------------------------------
