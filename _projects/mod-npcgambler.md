@@ -37,7 +37,6 @@ gold. Beware.. He doesn't like cheapskates!
 - A roll of 50 or higher wins double the bet
 - A roll of less than 50 loses double the bet
 - A roll of 100 within the first 10 rolls hits the jackpot
-- The jackpot can only be hit in the first 10 rolls of each session to discourage spam
 - A little help is given to players losing 5 rolls in a row
 
 
