@@ -21,7 +21,7 @@ links:
     url: https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Server/Tools
 
 description: >
-  Server and Database tools by [StygianTheBest](https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Server/Tools){:target="_blank"}.
+  Server and Database tools by [StygianTheBest](https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Server/){:target="_blank"}.
 ---
 
 
