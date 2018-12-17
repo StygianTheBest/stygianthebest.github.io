@@ -17,10 +17,10 @@ screenshot:
 
 links:
   - title: Source
-    url: https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Modules/mod-customlogin
+    url: https://github.com/StygianTheBest/mod-customlogin
 
 description: >
-  A module for AzerothCore by [StygianTheBest](https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Modules){:target="_blank"}.
+  A module for AzerothCore by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}.
 ---
 
 

@@ -17,10 +17,10 @@ screenshot:
 
 links:
   - title: Source
-    url: https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Modules/mod-npcgambler
+    url: https://github.com/StygianTheBest/mod-npcgambler
 
 description: >
-  A module for AzerothCore by [StygianTheBest](https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Modules){:target="_blank"}. 
+  A module for AzerothCore by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}. 
 ---
 
 
