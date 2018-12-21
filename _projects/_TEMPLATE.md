@@ -17,10 +17,10 @@ screenshot:
 
 links:
   - title: Source
-    url: https://github.com/StygianTheBest/AzerothCore-Content/Modules/tree/master/mod-
+    url: https://github.com/StygianTheBest/
 
 description: >
-  A <TYPE> for AzerothCore by [StygianTheBest](https://github.com/StygianTheBest/AzerothCore-Content/tree/master/Modules){:target="_blank"}.
+  A <TYPE> for AzerothCore by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}.
 ---
 
 ### Features ###

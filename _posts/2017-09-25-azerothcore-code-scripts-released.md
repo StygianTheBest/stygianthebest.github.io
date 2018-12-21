@@ -104,10 +104,10 @@ like Modcraft.io, and I've finally got a stable client with upgraded models and 
 in alot of ways, so I plan on putting together an archive of my client in the near future. In the meantime, you can download my collection 
 of five animated login screens with custom music. A random screen will be chosen each time you launch WoW.
 
-<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/tGy4dMr9OhU" frameborder="0" allowfullscreen></iframe>
+<iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/rsrGbV3kDtg" frameborder="0" allowfullscreen></iframe>
 
 {:.image-caption}
-*Random Animated Loading Screens*
+*Random Animated Login Screens*
 
 # Enjoy!
 > Feel free to [email](mailto:stygianthebest@protonmail.com?subject=AzerothCore%20Modules) me with any questions. If you find a bug, please open a ticket on [Github](https://github.com/stygianthebest){:target="_blank"}. I'll respond when time permits.

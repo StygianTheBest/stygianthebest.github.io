@@ -9,7 +9,7 @@ image: '/assets/img/sidebar/sidebar-sargeras.jpg'
 color: '#585120'
 
 screenshot:
-  src: '/assets/img/projects/stygiancore_controls/1920-stygiancorecontrols.jpg'
+  src: '/assets/img/projects/stygiancore_controls/480-stygiancorecontrols.jpg'
   srcset:
     1920w: '/assets/img/projects/stygiancore_controls/1920-stygiancorecontrols.jpg'
     960w: '/assets/img/projects/stygiancore_controls/960-stygiancorecontrols.jpg'
@@ -39,10 +39,11 @@ This is a server launcher and process monitor tool built for the StygianCore rep
 - Log server events (Autosave)
 - Hide process windows for each server
 - Docks to systray with process uptime as balloon text
+- Gracefully shut down MySQL to avoid potential data loss
 - Dragon icons indicate the status of each process:
   - Green: Process is running and uptime timer is running
-  - Red: Process is not running.
-  - Yellow: Process path not found. Click to set a new path.
+  - Red: Process is not running
+  - Yellow: Process path not found - Click to set a new path
 
 ### Installation
 
@@ -56,11 +57,6 @@ This is a server launcher and process monitor tool built for the StygianCore rep
     - Navicat/HeidiSQL - start_sql.bat
     - Visual Studio Build - start_deploy.bat
     - Tools Launcher - StygianCoreTools.bat
-
-### Source
-
----
- The source for this tool is available upon request.
 
 ### Version
 
