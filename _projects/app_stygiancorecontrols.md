@@ -5,7 +5,7 @@ title: 'StygianCore Controls'
 caption: 'A server launcher and monitor utility.'
 comments: true
 
-image: '/assets/img/sidebar/sidebar-sargeras.jpg'
+image: '/assets/img/sidebar/sidebar-stygiancore.jpg'
 color: '#585120'
 
 screenshot:

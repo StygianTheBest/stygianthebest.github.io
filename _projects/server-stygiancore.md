@@ -1,11 +1,11 @@
 ---
 layout: post
-date: 17 DECEMBER 2018
+date: 2018 DECEMBER 21
 title: 'StygianCore'
 caption: 'A custom World of Warcraft 3.3.5a repack for AzerothCore.'
 comments: true
 
-image: '/assets/img/sidebar/sidebar-stygiancore.jpg'
+image: '/assets/img/sidebar/sidebar-karazhan.jpg'
 color: '#e76500'
 
 screenshot:
