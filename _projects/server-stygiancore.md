@@ -71,7 +71,7 @@ The Support folder also contains documentation and other support files. You can 
 
 ## CORE
 
-- AzerothCore rev. ec8633621b45 2018-11-28 (master branch) (Win64, Release) Modified
+- AzerothCore rev.  e5fde8c8226a+ 2018-12-19 (master branch) (Win64, Release) Modified
 - Apache 2.2.17 Web Server with working SOAP Account Registration page
 - MySQL 5.6.42
 - PHP 5.3.5
