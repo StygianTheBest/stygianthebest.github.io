@@ -22,7 +22,7 @@ links:
 
 ![Black Lotus. Stygian.. the best!](/assets/img/logo/world_of_stygiancore.png){:.noborder}
 
-## GREETINGS
+# GREETINGS
 
 Welcome to StygianCore. This repack is powered by AzerothCore and would not be possible without the players, developers, and communities of the World of Warcraft MMO emulator and private server scene. A big thanks to everyone for any and all contributions absorbed to make this repack possible. Your hard work is much appreciated!
 
