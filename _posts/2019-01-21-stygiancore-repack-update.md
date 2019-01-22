@@ -18,7 +18,7 @@ color: 	'#8A6F75'
 
 ## REPACK UPDATE
 
-The first repack for StygianCore has been released. Click the link to read the installation instructions and download the path files.
+The first repack for StygianCore has been released. Click the link to read the installation instructions and download the patch files.
 
 - [Download Repack Update Patch 2019-01-21](https://github.com/StygianTheBest/StygianCore/tree/master/Tools/Patch)
 
