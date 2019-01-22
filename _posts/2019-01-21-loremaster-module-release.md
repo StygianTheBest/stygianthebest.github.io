@@ -18,7 +18,7 @@ color: 	'#8A6F75'
 
 ## INTRODUCTION
 
-I just released a new module for the StygianCore repack. This is one I've been wanting to create for a while, and I look forward to improving it by adding many more Loremaster NPCs at key locations around the Eastern Kingdoms, Kalimdor, and beyond. Once found, perhaps they will have a book or item of historical significance for you. Right now there are only three, but those three are in special places. When you talk to one, they will offer to teleport you to the next one in the chain. It's easy to add new ones too by using the SQL template I've provided.
+I just released a new module for the StygianCore repack. This is one I’ve been wanting to create for a while, and I look forward to improving it by adding many more Loremaster NPCs at key locations around the Eastern Kingdoms, Kalimdor, and beyond. Once found, perhaps they will have a book or item of historical significance for you. Right now there are only three, but those three are in special places. When you talk to one, they will tell you about the area you're in and offer to teleport you to the next Loremaster in the chain. It’s easy to add new ones too by using the SQL template I’ve provided.
 
 ## PROJECT PAGE
 
