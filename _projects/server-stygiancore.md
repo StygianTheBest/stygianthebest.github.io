@@ -22,14 +22,15 @@ links:
 
 ![Black Lotus. Stygian.. the best!](/assets/img/logo/world_of_stygiancore.png){:.noborder}
 
-# GREETINGS
-
-Welcome to StygianCore. This repack is powered by AzerothCore and would not be possible without the players, developers, and communities of the World of Warcraft MMO emulator and private server scene. A big thanks to everyone for any and all contributions absorbed to make this repack possible. Your hard work is much appreciated!
-
 ## DOWNLOAD
 
 - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_release_mega)
 - [Mirror 2 (MediaFire)](https://rebrand.ly/stygiancore_release_mediafire)
+- [Repack Update Patch 2019-01-21](https://github.com/StygianTheBest/StygianCore/tree/master/Tools/Patch)
+
+## GREETINGS
+
+Welcome to StygianCore. This repack is powered by AzerothCore and would not be possible without the players, developers, and communities of the World of Warcraft MMO emulator and private server scene. A big thanks to everyone for any and all contributions absorbed to make this repack possible. Your hard work is much appreciated!
 
 ## INTRODUCTION
 
@@ -81,15 +82,17 @@ The Support folder also contains documentation and other support files. You can 
   - Beastmaster Pet Handling
   - Day/Night Cycle
 
-## BACKUP/RESTORE
+## BACKUP/RESTORE/UPDATE
 
 - Easy Backup/Restore/Save/Archive the accounts, characters, and game world.
+- A repack update function is included for updating the repack to future revisions.
 - Includes an Azerothcore (master) build sandbox mode.
   - Saves the current server state before restore.
   - Temporarily restores default binaries and databases for sandbox testing.
   - Restores back to the server state prior to sandboxing.
   - Auto-Install patches for testing and development.
   - Restoration archives are upgradable for testing future versions of AzerothCore.
+
 
 ## HIGHLIGHTS
 
@@ -120,7 +123,7 @@ The Support folder also contains documentation and other support files. You can 
   - Mail
   - Trade
   - WhoList
-
+  
 ### LIFE, DEATH, AND COMBAT
 
 - Dungeon Checkpoints: You resurrect at the last or closest boss killed with 25% health/mana
@@ -144,10 +147,11 @@ The Support folder also contains documentation and other support files. You can 
 - Enchanter NPC: Offers all weapon and armor enchantments
 - Fisherman NPC: A custom fishing vendor with a path, waypoints, and speech
 - Gambler NPC: Allows players to gamble their money
-- Gift Box NPC - Sends players gifts at specified times like level-up
-- Global Trainer NPC - Trains all classes and skills
+- Gift Box NPC: Sends players gifts at specified times like level-up
+- Global Trainer NPC: Trains all classes and skills
+- Jukebox NPC: Plays much of the music content and videos in the game
+- Loremaster NPC: Recants lore and trivia of WoW at specific locations
 - Portal Master NPC: Provides quick transport all over the realm
-- Jukebox NPC - Plays much of the music content and videos in the game
 - Transmogrifier NPC (ELUNA): Transmog your gear
 
 ### CUSTOM VENDORS
@@ -206,13 +210,14 @@ When possible, I've moved module functions to ELUNA. This is a work in progress.
   - World/Dungeon Boss Kill Announcer
   - PVP Kill Announcer
   - Suicide Announcer
+- [NPC All Mounts Vendor](https://github.com/StygianTheBest/mod-npcallmounts)
+- [NPC Beastmaster](https://github.com/StygianTheBest/mod-npcbeastmaster)
 - [NPC Buffer](https://github.com/StygianTheBest/mod-npcbuffer)
   - Updated with emotes, speech, config options
-- [NPC Gambler](https://github.com/StygianTheBest/mod-npcgambler)
 - [NPC Codebox](https://github.com/StygianTheBest/mod-npccodebox)
 - [NPC Enchanter](https://github.com/StygianTheBest/mod-npcenchanter)
-- [NPC Beastmaster](https://github.com/StygianTheBest/mod-npcbeastmaster)
-- [NPC All Mounts Vendor](https://github.com/StygianTheBest/mod-npcallmounts)
+- [NPC Gambler](https://github.com/StygianTheBest/mod-npcgambler)
+- [NPC Loremaster](https://github.com/StygianTheBest/mod-npcloremaster)
 - Random Enchants (https://github.com/azerothcore/mod-random-enchants)
   - % Chance to enchant is now configurable
   - Item Quality to enchant is now configurable
@@ -312,6 +317,7 @@ Run StygianCoreControls.exe - This is a launch tool built for StygianCore and as
     - HeidiSQL - start_sql.bat
     - DB Tools - StygianCoreTools.bat
     - VS Deploy - start_deploy.bat
+	- Patch Core - start_corepatch.bat
 
 ### StygianCoreTools.bat - Database Maintenance Tool
 
@@ -362,7 +368,9 @@ The menu and options on this tool are dynamic and will change as you perform dif
   - This automates copying of Debug, RelWithDBInfo, and Release builds and confs while testing.
   - Has an 'Auto-Run' toggle for starting the server after copy.
   - You can skip this if you're not compiling.
-
+- **[0] Patch Core**
+  - Only available if a repack update archive is present. Updates the repack to the latest release.
+  
 ## REPACK UPDATES
 
 **[This repo](https://github.com/StygianTheBest/StygianCore) is the home of all future updates to any of the content in this repack. The folder structure is a mirror of the file structure within the repack archive, so you can easily download and copy file updates into your repack or restoration archive.**
@@ -387,6 +395,8 @@ The menu and options on this tool are dynamic and will change as you perform dif
         - Icons
           - For shortcuts and the like
       - Tools
+		- Patch
+		  - Instructions on how to update the repack
         - Work
           - restore_stygiancore
             - The master restoration archive.
@@ -401,6 +411,7 @@ The menu and options on this tool are dynamic and will change as you perform dif
 - Windows 10 Enterprise
   - VMWare Workstation (Windows 7 Professional)
   - Microsoft Visual Studio Community 2017
+  - Visual Studio Code
   - Navicat/HeidiSQL
   - SmartGIT
   - Notepad++
@@ -445,6 +456,7 @@ This is the timing for Restore (Option #5) in StygianCoreTools.bat.
 
 ## CREDITS
 
+![Styx](https://stygianthebest.github.io/assets/img/avatar/avatar-128.jpg "Styx")
 ![StygianCore](https://stygianthebest.github.io/assets/img/projects/stygiancore/StygianCore.png "StygianCore")
 
 #### A repack for AzerothCore by StygianTheBest ([GitHub](https://github.com/StygianTheBest) | [Website](http://stygianthebest.github.io))
@@ -452,6 +464,7 @@ This is the timing for Restore (Option #5) in StygianCoreTools.bat.
 ### Additional Credits
 
 - [Blizzard Entertainment](http://blizzard.com)
+- [Michel Martin Koiter](https://web.archive.org/web/20160329220904/http://www.sonsofthestorm.com:80/memorial_twincruiser.html)
 - [TrinityCore](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/THANKS)
 - [SunwellCore](http://www.azerothcore.org/pages/sunwell.pl/)
 - [AzerothCore](https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors)
