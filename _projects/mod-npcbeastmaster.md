@@ -106,7 +106,7 @@ on a Hunter in or out of dungeons.
 - Tallstrider Pink	-  Mazzranache
 - The Kurken		-  Wolf Core Hound
  
-**EXOTIC BEASTS**
+**Exotic Beasts**
 - Arcturis		-  Spirit Bear
 - Gondria		-  Spirit Tiger
 - Loque'nahak		-  Spirit Leopard
