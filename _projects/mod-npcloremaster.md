@@ -1,6 +1,6 @@
 ---
 layout: project
-date: 2019 January 21
+date: 2018 December 31
 title: 'Loremaster NPC'
 caption: 'A module for AzerothCore'
 comments: true

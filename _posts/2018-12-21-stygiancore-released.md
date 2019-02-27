@@ -27,7 +27,7 @@ color: 	'#8A6F75'
 
 ## INTRODUCTION
 
-StygianCore is World of Warcraft v3.3.5a server powered by a modified build of the AzerothCore World of Warcraft v3.3.5a server emulator. It has been providing an enjoyable gaming experience to hundreds of kids at our school since summer of 2017. Last fall I promised to release a repack of this server for parents and students to host at home. Additionally, I wanted to share a fun levelling server for solo or 4-10 player groups and help others who want to get started with development, scripting, and building their own server experience.
+StygianCore is World of Warcraft v3.3.5a server powered by a modified build of the AzerothCore World of Warcraft v3.3.5a server emulator. Last fall I promised to release a repack of this server for friends to host at home. Additionally, I wanted to share a fun levelling server for solo or 4-10 player groups and help others who want to exprience the nostalgia of the past and get started with development, scripting, and building their own server experience.
 
 Included are custom tools and docs for maintaining the game database and automating archive, save, and restore operations for sandboxing, testing, and development.
 

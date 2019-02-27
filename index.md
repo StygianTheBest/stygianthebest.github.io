@@ -4,7 +4,7 @@ title: Greetings Traveler!
 
 selected_projects:
   - _projects/server-stygiancore.md
-  - _projects/client-randomscreen.md
+  - _projects/server-stygiancoreclient.md
 
 
 #selected_posts:

@@ -2,6 +2,10 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
+# Show posts with dates in the future
+future: true
+
+# The site title
 title:               Stay Awhile and Listen
 
 # The unique resource location of your page.
