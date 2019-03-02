@@ -27,27 +27,31 @@ description: >
 
 ### StygianCore v2019.03.01 has been released! 
 
-- [Changelog](https://github.com/StygianTheBest/StygianCore#changelog) - [Bugfixes](https://github.com/StygianTheBest/StygianCore/blob/master/Tools/Work/restore_stygiancore/03_custom/db_world/world_update_bugfix.sql)
-- There are **MANY** new improvements and additions in this version.
-- If you are running a previous version, I **highly recommend** moving to this one ASAP.
+[Changelog](https://github.com/StygianTheBest/StygianCore#changelog) - [Bugfixes](https://github.com/StygianTheBest/StygianCore/blob/master/Tools/Work/restore_stygiancore/03_custom/db_world/world_update_bugfix.sql)
+
+There are **MANY** new improvements and additions in this version.
+If you are running a previous version, I **highly recommend** moving to this one ASAP.
 
 ## DOWNLOAD
 
 - **StygianCore Repack** _(Release v2019.03.01)_
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_release_mega)
-  - [Mirror 2 (MediaFire)](https://rebrand.ly/stygiancore_release_mediafire))
+  - [Mirror 2 (Google)](https://rebrand.ly/stygiancore_release_google)
 
 - **StygianCore HD Client Upgrade** _(Release v2019.03.01)_
+  - [View Project Details](https://rebrand.ly/stygiancore335client)
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_client_mega)
-  - [Mirror 2 (MediaFire)](https://rebrand.ly/stygiancore_client_mediafire)
+  - [Mirror 2 (Google)](https://rebrand.ly/stygiancore_client_google)
 
 ## GREETINGS
 
 Welcome to StygianCore. This repack is powered by AzerothCore and would not be possible without the players, developers, and communities of the World of Warcraft MMO emulator and private server scene. A big thanks to everyone for any and all contributions absorbed to make this repack possible. Your hard work is much appreciated!
 
-#### This repack is dedicated to the late Michel Martin Koiter (May 4, 1984 – March 18, 2004). His shrine in World of Warcraft served as a place of solace for myself, my guildmates, and countless others in the classic days of World of Warcraft and beyond. 
+<div style="font-weight: bold; color:green;">This project is, and will always be, FREE! I designed it with lots of comments and templates to make life easier for new developers and creators to get started. My hope is that all of the hard work I put into this will inspire others to get involved and create more cool and interesting projects for the WoW Emulation community.</div>
 
-![TRIBUTE TO MICHEL KOITER](https://stygianthebest.github.io/assets/img/projects/mod-michelkoiter/michel-koiter-tribute-stygianthebest.jpg "A Tribute to Michel Koiter")
+#### This repack is dedicated to the late [Michel Martin Koiter](https://web.archive.org/web/20101201092653/http://www.sonsofthestorm.com/memorial_twincruiser.html) (May 4, 1984 – March 18, 2004). His shrine in World of Warcraft served as a place of solace for myself, my guildmates, and countless others in the classic days of World of Warcraft and beyond. 
+
+![Michel Koiter](https://stygianthebest.github.io/assets/img/projects/mod-michelkoiter/michel-koiter-tribute-stygianthebest.jpg)
 
 Michel Koiter was one of Blizzard Entertainment's premium artists and a member of [Sons of the Storm](https://web.archive.org/web/20101201092653/http://www.sonsofthestorm.com/memorial_twincruiser.html). He went by the moniker "_Twincruiser_", an artistic collaboration with his twin brother René Koiter. Just a few months before World of Warcraft's release, he died of unexpected heart failure. He was 19 years old. The cause of his death was never really understood and remains shrouded in mystery.
 
@@ -58,9 +62,11 @@ Michel Koiter was one of Blizzard Entertainment's premium artists and a member o
   - I located each item in the data files _(quite the chore!)_ and updated the entries in the Item.dbc and ItemDisplayInfo.dbc to make them useable as item id 701005 thru 7010012.
   - The correct shoulders were found, but not the one-shoulder variant that Koiter's orc is wearing on the shrine. After looking at the shrine again, **_my theory_** is they removed the left shoulder of the model because it would have stuck into the shrine wall.
 
-_It is said that his ghost still wanders the Barrens looking for a good brawl._
+It is said that his ghost still wanders the Barrens looking for a good brawl.
 
-**_Rest In Peace.. See you on the other side brother._**
+<span style="font-weight: bold; font-style: italic; color: #ff6600;">
+Rest In Peace.. See you on the other side brother.
+</span>
 
 ## INTRODUCTION
 
@@ -71,7 +77,9 @@ Included are custom tools and docs for maintaining the game database and automat
 ### A bit of history...
 In addition to new content, this repack includes updated versions of my C++ modules, SQL templates, custom tools, and client modifications from my [AzerothCore Content](https://github.com/StygianTheBest/AzerothCore-Content) release in summer 2017 which included 11 new modules and a lot of ported C++ and SQL from TrinityCore.
 
-![StygianCore](https://stygianthebest.github.io/assets/img/projects/stygiancore/StygianTheBestThanksYouAll.jpg)
+<p align="center">
+<img src="https://stygianthebest.github.io/assets/img/projects/stygiancore/StygianTheBestThanksYouAll.jpg">
+</p>
 
 ## DOCUMENTATION & SUPPORT
 
@@ -85,6 +93,9 @@ Documentation for the this repack and its contents can be found throughout the d
 - TOOLS\WORK\README.MD
 
 The **Support** folder also contains documentation and other support files. You can view many these files by by starting the included Apache Web server and visiting the Account Registration Portal at http://127.0.0.1/.
+
+## TL;DR 
+- Check out the [Getting Started](https://stygianthebest.github.io/projects/server-stygiancore#getting-started) section!
 
 ### Support Folder Contents
 
@@ -174,6 +185,11 @@ The **Support** folder also contains documentation and other support files. You 
     - Guild Tabs are styled with icons
     - Guild Roles and Limits are set
     - Guild Tabards are designed
+
+{:.image-caption}
+*Default Guildmaster Characters for Alliance & Horde*
+
+![Guildmaster Characters](https://stygianthebest.github.io/assets/img/projects/stygiancore/stygiancore_gmchars.jpg){:.figure}
   
 ### LIFE, DEATH, AND COMBAT
 
@@ -224,6 +240,7 @@ The **Support** folder also contains documentation and other support files. You 
 - Gift Box NPC: Sends players gifts at specified times like level-up.
 - Global Trainer NPC: Trains all classes and skills.
 - Jukebox NPC: Plays much of the music content and videos in the game.
+- Koiter NPC: A recreation of Koiter's character from beta in normal and ghost form.
 - Loremaster NPC: Recants lore and trivia of WoW at specific locations.
 - Multi-Vendor NPC: Allows multiple item iventories on one vendor.
 - Portal Master NPC: Provides quick transport all over the realm.
@@ -358,7 +375,7 @@ This repack includes a default Administrator account. It is used to log into the
 
 ### StygianCoreControls.exe - Launcher and Process Monitor
 
-![Controls](https://stygianthebest.github.io/assets/img/projects/stygiancore_controls/app_stygiancorecontrols.jpg)
+![Controls](https://stygianthebest.github.io/assets/img/projects/stygiancore_controls/app_stygiancorecontrols.jpg){:.figure}
 
 Run **StygianCoreControls.exe** - This is a launch tool built for StygianCore and assists with running the processes and admin tools in the repack. It is preconfigured to run all of the server components. It offers the following features:
 
@@ -411,7 +428,7 @@ When you're ready to run an archive, backup, or restore process, click the small
 
 The menu and options on this tool are dynamic and will change as you perform different tasks. The default menu looks like this:
 
-![StygianCoreTools Menu](https://stygianthebest.github.io/assets/img/projects/stygiancore_controls/stygiancoretools_menu.jpg)
+![StygianCoreTools Menu](https://stygianthebest.github.io/assets/img/projects/stygiancore_controls/stygiancoretools_menu.jpg){:.figure}
 
 #### MENU OPTIONS
 
@@ -632,7 +649,7 @@ This is the timing for Restore (Option #5) in StygianCoreTools.bat.
 
 ## CREDITS
 
-![Styx](https://stygianthebest.github.io/assets/img/avatar/avatar-128.jpg "Styx") ![StygianCore](https://stygianthebest.github.io/assets/img/projects/stygiancore/StygianCore.png "StygianCore")
+![Styx](https://stygianthebest.github.io/assets/img/avatar/avatar-128.jpg "Styx"){:.figure}![StygianCore](https://stygianthebest.github.io/assets/img/projects/stygiancore/StygianCore.png "StygianCore"){:.figure}
 
 #### A World of Warcraft 3.3.5a Solo/LAN repack by StygianTheBest | [GitHub](https://github.com/StygianTheBest) | [Website](http://stygianthebest.github.io)
 

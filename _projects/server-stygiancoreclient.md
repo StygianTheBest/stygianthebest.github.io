@@ -27,20 +27,21 @@ description: >
 
 ## DOWNLOAD
 
-- **StygianCore Client Upgrade** _(Release v2019.03.01)_
+- **StygianCore HD Client Upgrade** _(Release v2019.03.01)_
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_client_mega)
-  - [Mirror 2 (MediaFire)](https://rebrand.ly/stygiancore_client_mediafire)
-
+  - [Mirror 2 (Google)](https://rebrand.ly/stygiancore_client_google)
+  
 - **StygianCore Repack** _(Release v2019.03.01)_
+  - [View Project Details](https://rebrand.ly/stygiancoreprojectspage)
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_release_mega)
-  - [Mirror 2 (MediaFire)](https://rebrand.ly/stygiancore_release_mediafire)
+  - [Mirror 2 (Google)](https://rebrand.ly/stygiancore_release_google)
 
 ## INSTALLATION
 
 #### UPDATE YOUR WOW CLIENT INSTALLATION
 
 - **Unzip this archive into your your client's root folder.** 
-- **Run the 'SCClearCacheRun.bat file to clear the client cache and launch the client.**
+- **Run the 'SCClearCacheRun.bat' file to clear the client cache and launch the client.**
   
 ## PATCH UPGRADES
 _Patch filenames have been spaced to allow patch placement before or after each for testing new patches_ 
@@ -63,10 +64,13 @@ _Patch filenames have been spaced to allow patch placement before or after each 
 
 ## INTERFACE
 
+I've included a few essential add-ons that I modified to work with StygianCore as well as a library of other popular addons for WoW 3.3.5a.
+
 - [Random Animated Login Screens](https://rebrand.ly/randomloginscreens)
-- Carbonite - Customized for StygianCore with Map Teleport and other tools
-- TrinityAdmin - Customized for StygianCore/AzerothCore
-- A 3.3.5a AddOn Library including a lot of popular and useful addons
+- Carbonite 3.3.4 -  Customized for StygianCore
+- [TrinityMagic](https://github.com/karlbunch/LordKator_TrinityMagic) - Adds a Teleport function to the Carbonite Mini-Map among other useful features. This feature is awesome!
+- TrinityAdmin - Updated for StygianCore/AzerothCore
+- An addon library including a lot of popular and useful addons for WoW 3.3.5a
 - Additional Login Screen Patches (Classic WoW & The Burning Crusade)
 
 ## TOOLS
@@ -79,6 +83,33 @@ _Patch filenames have been spaced to allow patch placement before or after each 
 - Large Address Aware
 - HD D3D/OpenGL Upgrade
 
+## Screenshots
+
+{:.image-caption}
+*Upgraded Sunlight*
+
+![Upgraded Sunlight](https://stygianthebest.github.io/assets/img/projects/hd-client/stygiancore_sunlight.jpg){:.figure}
+
+{:.image-caption}
+*Upgraded Slime*
+
+![Upgraded Slime](https://stygianthebest.github.io/assets/img/projects/hd-client/stygiancore_slime.jpg){:.figure}
+
+{:.image-caption}
+*Upgraded Lava*
+
+![Upgraded Lava](https://stygianthebest.github.io/assets/img/projects/hd-client/stygiancore_lava.jpg){:.figure}
+
+{:.image-caption}
+*Upgraded Trees*
+
+![Upgraded Trees](https://stygianthebest.github.io/assets/img/projects/hd-client/stygiancore_trees.jpg){:.figure}
+
+{:.image-caption}
+*Fixed Dragonmaw Foreman Texture*
+
+![Dragonmaw Foreman](https://stygianthebest.github.io/assets/img/projects/hd-client/dragonmaw_foreman.jpg){:.figure}
+
 ## ADDITIONAL CREDITS
 
 - [Blizzard Entertainment](http://blizzard.com)
@@ -86,8 +117,8 @@ _Patch filenames have been spaced to allow patch placement before or after each 
 - [ModCraft.io](http://modcraft.io/)
 - [MMO Society](https://www.mmo-society.com/)
 
-#### This project is dedicated to the late Michel Martin Koiter (May 4, 1984 – March 18, 2004). His shrine in World of Warcraft served as a place of solace for myself, my guildmates, and countless others in the classic days of World of Warcraft and beyond. 
+#### This project is dedicated to the late [Michel Martin Koiter](https://web.archive.org/web/20101201092653/http://www.sonsofthestorm.com/memorial_twincruiser.html) (May 4, 1984 – March 18, 2004). His shrine in World of Warcraft served as a place of solace for myself, my guildmates, and countless others in the classic days of World of Warcraft and beyond. 
 
-![TRIBUTE TO MICHEL KOITER](https://stygianthebest.github.io/assets/img/projects/mod-michelkoiter/michel-koiter-tribute-stygianthebest.jpg "A Tribute to Michel Koiter")
+![TRIBUTE TO MICHEL KOITER](https://stygianthebest.github.io/assets/img/projects/mod-michelkoiter/michel-koiter-tribute-stygianthebest.jpg "A Tribute to Michel Koiter"){:.figure}
 
 {% include archived.md %}

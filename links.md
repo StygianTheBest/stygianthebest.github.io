@@ -120,12 +120,10 @@ color: '#A85641'
 - [TrinityCore](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/THANKS){:target="_blank"} 
 - [SunwellCore](http://www.azerothcore.org/pages/sunwell.pl/){:target="_blank"} 
 - [AzerothCore](https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors){:target="_blank"} 
-- [AzerothCore Discord](https://discord.gg/gkt4y2x){:target="_blank"} 
-- [EMUDevs](https://youtube.com/user/EmuDevs){:target="_blank"} 
-- [AC-Web](http://ac-web.org/){:target="_blank"} 
+- [AC-Web](http://ac-web.org/){:target="_blank"}
+- [MMO Society](https://www.mmo-society.com){:target="_blank"} 
 - [ModCraft.io](http://modcraft.io/){:target="_blank"} 
-- [RochetCode](http://rochet2.github.io/downloads/){:target="_blank"} 
 - [OwnedCore](http://ownedcore.com/){:target="_blank"} 
-- [OregonCore Wiki](https://wiki.oregon-core.net/){:target="_blank"} 
+- [OregonCore](https://wiki.oregon-core.net/){:target="_blank"} 
+- [RochetCode](http://rochet2.github.io/downloads/){:target="_blank"} 
 - [Wowhead.com](http://wowhead.com){:target="_blank"} 
-- [AoWoW](https://wotlk.evowow.com/){:target="_blank"} 
