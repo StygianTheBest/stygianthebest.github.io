@@ -17,7 +17,7 @@ screenshot:
 
 links:
   - title: Source
-    url: #
+    url: https://github.com/StygianTheBest/StygianCore/tree/master/Source
 
 description: >
   An AzerothCore Repack by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}.
@@ -27,7 +27,7 @@ description: >
 
 ### StygianCore v2019.03.01 has been released! 
 
-[Changelog](https://github.com/StygianTheBest/StygianCore#changelog) - [Bugfixes](https://github.com/StygianTheBest/StygianCore/blob/master/Tools/Work/restore_stygiancore/03_custom/db_world/world_update_bugfix.sql)
+[Changelog](https://stygianthebest.github.io/projects/server-stygiancore#changelog) - [Bugfixes](https://github.com/StygianTheBest/StygianCore/blob/master/Tools/Work/restore_stygiancore/03_custom/db_world/world_update_bugfix.sql)
 
 There are **MANY** new improvements and additions in this version.
 If you are running a previous version, I **highly recommend** moving to this one ASAP.
@@ -691,13 +691,69 @@ World of Warcraft© and Blizzard Entertainment© are all trademarks or registere
 
 ## CHANGELOG
 
-### 2019.03.01
-- COMING SOON!
+## 2019.03.05
 
-### 2019.01.29
+#### _Download_
+- [StygianCore Patch](https://github.com/StygianTheBest/StygianCore/tree/master/Tools/Patch)
+
+#### _Module_
+- Fixed an issue with Custom Login Abilities being unlearned on logoff
+- All abilities are now configurable in the Custom Login module's config file
+- Learning Town Portals is now a configurable option
+
+## 2019.03.01
+
+#### _Core_
+
+- Multi-Vendor Support Added
+
+#### _Account/Character_
+
+- GameMaster Account
+  - Default characters updated and now fully armored
+  - PDUMP files have been updated
+
+#### _Module_
+
+- Most modules have been updated and improved
+- New Module: Trollop NPC
+- NPC Gambler
+  - Gambler can now gamble copper, silver, or gold
+  - Coin type can be configured in the module's config
+
+#### _NPC_
+
+- Many NPCs now speak AI phrases and emotes
+- Multi-Vendor: Gem Vendor placed in Booty Bay
+- Multi-Vendor: Glyph Vendor placed in Booty Bay
+- Global Trainer: Placed in Silithus Camp
+- Loremaster: New locations added
+- Custom Vendor: Placed many in Booty Bay and Ratchet
+- Koiter's ghost now watches over The Barrens
+- Portal Master: Teleport destinations added
+- Several critters have been added
+- Captain Lou is now ferrying near the Silithus Camp
+- A few Trollops have been sighted in dark places
+
+#### _Item/Object_
+
+- Pocket Portal
+  - Model Updated to Spinning Ulduar Globe
+  - Teleport destination added
+
+#### _World_
+
+- Silithus Camp: Added NPCS, Objects, and Critters
+- Zone: Added Emerald Dream Canyon
+- Zone: Added Programmer Isle
+- Zone: Added Designer Isle
+
+## 2019.01.29
+
 - Core Patch Update Released
 
-### 2018.12.21
+## 2018.12.21
+
 - Initial Release
 
 [TOP](#news)
