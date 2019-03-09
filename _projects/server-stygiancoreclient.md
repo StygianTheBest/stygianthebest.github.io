@@ -20,7 +20,7 @@ links:
     url: #
 
 description: >
-  A World of Warcraft 33.3.5a Client Upgrade by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}.
+  A World of Warcraft 3.3.5a Client Upgrade by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}.
 ---
 
 # WoW 3.3.5a HD Client Upgrade
@@ -32,7 +32,7 @@ description: >
   - [Mirror 2 (Google)](https://rebrand.ly/stygiancore_client_google)
   
 - **StygianCore Repack** _(Release v2019.03.01)_
-  - [View Project Details](https://rebrand.ly/stygiancoreprojectspage)
+  - [View Project Details](https://stygianthebest.github.io/projects/server-stygiancore/)
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_release_mega)
   - [Mirror 2 (Google)](https://rebrand.ly/stygiancore_release_google)
 

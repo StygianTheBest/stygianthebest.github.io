@@ -116,14 +116,16 @@ color: '#A85641'
 
 ---
 
-- [Blizzard Entertainment](http://blizzard.com){:target="_blank"} 
-- [TrinityCore](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/THANKS){:target="_blank"} 
-- [SunwellCore](http://www.azerothcore.org/pages/sunwell.pl/){:target="_blank"} 
-- [AzerothCore](https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors){:target="_blank"} 
+- [Blizzard Entertainment](http://blizzard.com){:target="_blank"}
+- [TrinityCore](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/THANKS){:target="_blank"}
+- [SunwellCore](http://www.azerothcore.org/pages/sunwell.pl/){:target="_blank"}
+- [AzerothCore](https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors){:target="_blank"}
 - [AC-Web](http://ac-web.org/){:target="_blank"}
-- [MMO Society](https://www.mmo-society.com){:target="_blank"} 
-- [ModCraft.io](http://modcraft.io/){:target="_blank"} 
-- [OwnedCore](http://ownedcore.com/){:target="_blank"} 
-- [OregonCore](https://wiki.oregon-core.net/){:target="_blank"} 
-- [RochetCode](http://rochet2.github.io/downloads/){:target="_blank"} 
-- [Wowhead.com](http://wowhead.com){:target="_blank"} 
+- [MMO Society](https://www.mmo-society.com){:target="_blank"}
+- [ModCraft.io](http://modcraft.io/){:target="_blank"}
+- [OwnedCore](http://ownedcore.com/){:target="_blank"}
+- [OregonCore](https://wiki.oregon-core.net/){:target="_blank"}
+- [RochetCode](http://rochet2.github.io/downloads/){:target="_blank"}
+- [The WoW Diary](https://www.amazon.com/WoW-Diary-Journal-Computer-Development/dp/B07LB927QF){:target="_blank"}
+- [Warcraft Less Travelled](http://warcraftlesstraveled.com){:target="_blank"}
+- [Wowhead.com](http://wowead.com){:target="_blank"}
