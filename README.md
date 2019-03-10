@@ -8,7 +8,7 @@
 
 ## StygianCore
 
-[StygianCore](https://stygianthebest.github.io/projects/server-stygiancore/) is my custom version of [AzerothCore](http://www.azerothcore.org/){:target="_blank"} (AC), an open source game-server application for [World of Warcraft](https://worldofwarcraft.com/en-us/){:target="_blank"} (WoW) currently supporting the 3.3.5a game version. It is the continuation of the [SunwellCore Project](http://www.azerothcore.org/pages/sunwell.pl/){:target="_blank"}.
+[StygianCore](https://stygianthebest.github.io/projects/server-stygiancore/) is my custom version of [AzerothCore](http://www.azerothcore.org/){:target="_blank"} (AC), an open source MMO emulator currently supporting the 3.3.5a game version. It is the continuation of the [SunwellCore Project](http://www.azerothcore.org/pages/sunwell.pl/){:target="_blank"}.
 
 My primary goal in sharing this is to help others learn how to create their own modules/content and to bring more interest to the emulation scene. My repos include original projects and modules written by myself as well as modifications to existing C++ scripts and other content written for other emulation projects such as [TrinityCore](https://www.trinitycore.org/) and [Mangos](https://www.getmangos.eu/). 
 
@@ -22,9 +22,9 @@ I'm short on spare time to devote to this hobby, and I'm always evolving, improv
 
 ## WoW EMU History
 
-I first got started with WoW emulation in May 2017 using repack for TrinityCore (TC). After delving into the scene a bit, I decided to work on my own WoW 3.3.5a server so I could explore the game content, learn more about how the game worked, and relive the old gaming days with friends and family. I chose to go with AC for my server based on my desire to use WoW version 3.3.5a, [reputation](http://www.azerothcore.org/pages/sunwell.pl/){:target="_blank"}, research, and the results of my own testing. I also pull the latest TC 3.3.5a branch periodically for testing, cross-referencing code, and investigating fixes.
+I first got started with WoW emulation in May 2017 using repack for TrinityCore (TC). After delving into the scene a bit, I decided to work on my own server so I could explore the game content, learn more about how the game worked, and relive the old gaming days with friends and family. I chose to go with AC for my server based on my desire to use version 3.3.5a, [reputation](http://www.azerothcore.org/pages/sunwell.pl/){:target="_blank"}, research, and the results of my own testing. I also pull the latest TC 3.3.5a branch periodically for testing, cross-referencing code, and investigating fixes.
 
-The goal for my server is to be as "Blizzlike" as possible with importance placed on having the atmosphere, quests, dungeons, holidays, and raids (in that order) working as intended. I'd prefer to achieve this in Classic first, the move on to The Burning Crusade, and finally Wrath of the Lich King. As I play through the game, I'm keeping a log and [submitting bugs to the issue tracker](https://github.com/StygianTheBest/StygianCore/issues){:target="_blank"} when time permits. Time is indeed the enemy.
+The goal for my server is to be as "Blizzlike" as possible with importance placed on having the atmosphere, quests, dungeons, holidays, and raids (in that order) working as intended. I'd prefer to achieve this in Classic first, the move on to The Burning Crusade, and finally Wrath of the Lich King. As I play through the game, I'm keeping a log and [submiting bugs to the issue tracker](https://github.com/tStygianTheBest/StygianCore/issues){:target="_blank"} when time permits. Time is indeed the enemy.
 
 After working with Azerothcore core for a few months and experiencing the content as a leveling player, I'm still satisfied with my choice, but the more I progress through the game, the more I think about switching to Trinity. To be honest, it's a Love/Hate relationship with both cores, and I find that I go back and forth between them as I find issues on one core that doesn't exist on the other and vice versa. The truth is, they are both full of bugs and issues; it all comes down to what you're willing to put up with. Even the original game was full of bugs, so to think that AC or any other emulator is going to be truly _Blizzlike_ is a bit of a farce. Having said that, I'm quite amazed at the quality of the AC and TC emulators seeing as..
 
@@ -48,4 +48,4 @@ And with that, I now leave you with a parting quote from [an amazing quest](http
 >
 >May we meet again, in better times, and reminisce of days long past... battles hard fought... dreams redeemed.
 >
-> -- Tirion Fordring)
+> -- Tirion Fordring
