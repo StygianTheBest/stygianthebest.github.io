@@ -19,7 +19,6 @@ color: 	'#8A6F75'
 ## DOWNLOAD
 
 - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_release_mega)
-- [Mirror 2 (MediaFire)](https://rebrand.ly/stygiancore_release_mediafire)
 
 ## PROJECT PAGE
 
@@ -27,7 +26,7 @@ color: 	'#8A6F75'
 
 ## INTRODUCTION
 
-StygianCore is World of Warcraft v3.3.5a server powered by a modified build of the AzerothCore World of Warcraft v3.3.5a server emulator. Last fall I promised to release a repack of this server for friends to host at home. Additionally, I wanted to share a fun levelling server for solo or 4-10 player groups and help others who want to exprience the nostalgia of the past and get started with development, scripting, and building their own server experience.
+StygianCore is a modified build of the AzerothCore v3.3.5a MMO server emulator. Last fall I promised to release a repack of this server for friends to host at home. Additionally, I wanted to share a fun levelling server for solo or 4-10 player groups and help others who want to exprience the nostalgia of the past and get started with development, scripting, and building their own server experience.
 
 Included are custom tools and docs for maintaining the game database and automating archive, save, and restore operations for sandboxing, testing, and development.
 

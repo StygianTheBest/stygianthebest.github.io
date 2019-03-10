@@ -30,11 +30,9 @@ links:
 
 - **StygianCore Repack** _(Release v2019.03.01)_
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_release_mega)
-  - [Mirror 2 (MediaFire)](https://rebrand.ly/stygiancore_release_mediafire))
 
 - **StygianCore HD Client Upgrade** _(Release v2019.03.01)_
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_client_mega)
-  - [Mirror 2 (MediaFire)](https://rebrand.ly/stygiancore_client_mediafire)
 
 <br />
 <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/rsrGbV3kDtg" frameborder="0" allowfullscreen></iframe>

@@ -22,7 +22,7 @@ tagline:             Black Lotus. Stygian.. the best!
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  World of Warcraft emulation projects by StygianTheBest.
+  MMO emulation projects by StygianTheBest.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:

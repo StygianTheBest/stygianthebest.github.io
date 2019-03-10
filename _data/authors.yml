@@ -8,7 +8,7 @@ stb:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    You have reached the project page of [StygianTheBest](https://github.com/StygianTheBest){:target="_blank"}. This is where I share code and information for the World of Warcraft emulators [AzerothCore](http://www.azerothcore.org/){:target="_blank"} and [TrinityCore](https://www.trinitycore.org/){:target="_blank"}.
+    You have reached the project page of [StygianTheBest](https://github.com/StygianTheBest){:target="_blank"}. This is where I share code and information for the MMO emulators [AzerothCore](http://www.azerothcore.org/){:target="_blank"} and [TrinityCore](https://www.trinitycore.org/){:target="_blank"}.
 
   # This photo will be used in the about section
   picture:

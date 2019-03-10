@@ -2,7 +2,7 @@
 layout: project
 date: 2019 FEBRUARY 28
 title: 'StygianCore HD Client Upgrade'
-caption: 'A custom World of Warcraft 3.3.5a client upgrade.'
+caption: 'A 3.3.5a client upgrade.'
 comments: true
 
 image: '/assets/img/sidebar/sidebar-medivh.jpg'
@@ -20,27 +20,26 @@ links:
     url: #
 
 description: >
-  A World of Warcraft 3.3.5a Client Upgrade by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}.
+  A 3.3.5a Client Upgrade by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}.
 ---
 
-# WoW 3.3.5a HD Client Upgrade
+# 3.3.5a HD Client Upgrade
 
 ## DOWNLOAD
 
 - **StygianCore HD Client Upgrade** _(Release v2019.03.01)_
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_client_mega)
-  - [Mirror 2 (Google)](https://rebrand.ly/stygiancore_client_google)
   
 - **StygianCore Repack** _(Release v2019.03.01)_
   - [View Project Details](https://stygianthebest.github.io/projects/server-stygiancore/)
   - [Mirror 1 (MEGA)](https://rebrand.ly/stygiancore_release_mega)
-  - [Mirror 2 (Google)](https://rebrand.ly/stygiancore_release_google)
 
 ## INSTALLATION
 
 #### UPDATE YOUR WOW CLIENT INSTALLATION
 
-- **Unzip this archive into your your client's root folder.** 
+- **Unzip this archive into your your client's root folder.**
+- **Download a patched client executable**
 - **Run the 'SCClearCacheRun.bat' file to clear the client cache and launch the client.**
   
 ## PATCH UPGRADES

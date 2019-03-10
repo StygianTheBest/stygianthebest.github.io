@@ -26,7 +26,7 @@ description: >
 ### Description ###
 ---
 This is my collection of five animated login screens with custom music. A random screen will be chosen each time 
-you launch WoW.
+you launch the game client.
 
 <br />
 <iframe class="center" width="560" height="315" src="https://www.youtube.com/embed/rsrGbV3kDtg" frameborder="0" allowfullscreen></iframe>
@@ -59,19 +59,17 @@ position correctly, so I added a crate to the scene to make it appear like he ha
 ### Files ###
 ------------------------------------------------------------------------------------------------------------------
 - WoWCustomExe.zip 
-	- A custom WoW 3.3.5a client binary required for use of files not stored in .MPQ archives
+	- A modified client binary required for use of files not stored in .MPQ archives
 - Interface files 
 	- These are the files that are normally in an .MPQ archive.
 
 
 ### Installation ###
 ------------------------------------------------------------------------------------------------------------------
-- Copy the Interface folder into your WoW folder
+- Copy the Interface folder into your game client folder
 - Unzip and use the modified Wow.exe to launch the game.
 - You will need to adjust the IP Address to your private server in the LoginUI.lua file.
-- The visual FX objects are mapped based on screen resolution, so they may need to be tweaked. This can be done by 
-editing X,Y,Z,O coordinates for each object in x_vars_init.lua. I have included a sample file for 1024x768 resolution 
-as well.
+- The visual FX objects are mapped based on screen resolution, so they may need to be tweaked. This can be done by editing X,Y,Z,O coordinates for each object in x_vars_init.lua. I have included a sample file for 1024x768 resolution as well.
 
 ~~~~
 			Scale	X	Y	Z	Orientation		Model

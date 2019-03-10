@@ -2,7 +2,7 @@
 layout: project
 date: 2019 JANUARY 28
 title: 'TrinityCore Sandbox'
-caption: 'A custom World of Warcraft 3.3.5a sandbox repack.'
+caption: 'A custom 3.3.5a sandbox repack.'
 comments: true
 
 image: '/assets/img/sidebar/sidebar-eldrethelas.jpg'
