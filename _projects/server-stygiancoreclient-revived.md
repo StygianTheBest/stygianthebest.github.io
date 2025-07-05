@@ -336,7 +336,7 @@ Thus the highest priority would be the file patch_Z.mpq inside the "Data\enUS" f
 - [ModCraft.io](http://modcraft.io/){:target="_blank"}
 - [MMO Society](https://www.mmo-society.com/){:target="_blank"}
 - [AoWoW](https://wotlk.evowow.com/){:target="_blank"}
-- [HD 3.3.35A](https://discord.com/invite/wotlk-3-3-5a-hd-client-858041817043042364){:target="_blank"}
+- [WotLK HD 3.3.5A](https://discord.com/invite/wotlk-3-3-5a-hd-client-858041817043042364){:target="_blank"}
 - [Reznik's WOTLK Boost](https://reznik.fandom.com/wiki/WotLK_Boost){:target="_blank"}
 - [ChromieCraft](https://www.chromiecraft.com/en/downloads/){:target="_blank"}
 - [More credits are cited in the sources](https://github.com/StygianTheBest){:target="_blank"}
