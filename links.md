@@ -117,6 +117,9 @@ color: '#A85641'
 ---
 
 - [Blizzard Entertainment](http://blizzard.com){:target="_blank"}
+- [HD 3.3.35A](https://discord.com/invite/wotlk-3-3-5a-hd-client-858041817043042364){:target="_blank"}
+- [Reznik's WOTLK Boost](https://reznik.fandom.com/wiki/WotLK_Boost){:target="_blank"}
+- [ChromieCraft](https://www.chromiecraft.com/en/downloads/){:target="_blank"}
 - [TrinityCore](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/THANKS){:target="_blank"}
 - [SunwellCore](http://www.azerothcore.org/pages/sunwell.pl/){:target="_blank"}
 - [AzerothCore](https://github.com/AzerothCore/azerothcore-wotlk/graphs/contributors){:target="_blank"}

@@ -3,8 +3,8 @@ layout: welcome
 title: Greetings Traveler!
 
 selected_projects:
-  - _projects/server-stygiancore.md
-  - _projects/server-stygiancoreclient.md
+  - _projects/server-stygiancore-revived.md
+  - _projects/server-stygiancoreclient-revived.md
 
 
 #selected_posts:
@@ -15,7 +15,7 @@ more_projects: projects.md
 more_posts: posts.md
 
 # For The Horde!
-#image: 	/assets/img/sidebar/sidebar-hordeblood.jpg
+#image: /assets/img/sidebar/sidebar-hordeblood.jpg
 image: 	/assets/img/sidebar/sidebar-stormwindmemorial.jpg
 color: 	'#671717'
 ---

@@ -11,7 +11,7 @@ color: '#e76500'
 screenshot:
   src: '/assets/img/projects/480-.jpg'
   srcset:
-    1920w: '/assets/img/projects/960-.jpg'
+    1920w: '/assets/img/projects/1920-.jpg'
     960w: '/assets/img/projects/960-.jpg'
     480w: '/assets/img/projects/480-.jpg'
 

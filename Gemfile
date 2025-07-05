@@ -9,5 +9,9 @@ gem "jekyll-paginate", "~> 1.1"
 gem "jekyll-redirect-from", "~> 0.12"
 gem "jekyll-relative-links", "~> 0.4"
 gem "jekyll-sitemap", "~> 1.0"
+gem 'base64'
+gem 'logger'
+gem 'bigdecimal'
+gem 'kramdown-parser-gfm'
 
 gem "classifier-reborn", "~> 2.1"
