@@ -1,4 +1,4 @@
-]---
+---
 layout: project
 date: 2025 JULY 04
 title: 'StygianCore Revived 2025'
