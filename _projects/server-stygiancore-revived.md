@@ -140,7 +140,7 @@ Much of the original documentation still applies, so be sure to read it at the o
 	- [Playerbots Github Issue Tracker](https://github.com/liyunfan1223/mod-playerbots/issues){:target="_blank"}
 - Apache webpage registration is broken and out of date. This was rarely used.
 	- To fix PHP needs to be upgraded and registration page code updated.
-	- Check [AzerothCore-RegistrationWeb](https://github.com/LeuanN/AzerothCore-RegistrationWeb/tree/main) for the new implementation.
+	- Check [AzerothCore-RegistrationWeb](https://github.com/LeuanN/AzerothCore-RegistrationWeb/tree/main){:target="_blank"} for the new implementation.
 
 ## SCREENSHOTS
 
