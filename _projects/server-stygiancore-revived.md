@@ -1,4 +1,4 @@
----
+]---
 layout: project
 date: 2025 JULY 04
 title: 'StygianCore Revived 2025'
@@ -75,7 +75,32 @@ May your journeys be rich with discovery.
 	- Fish Feast now uses the original WoTLK Fish Feast model (fuck the Kaluak)
 	- Dead Tauren male skeletons are replaced with juicy steaks (player corpses only)	
 - Module
-	- All of my original modules have been updated with some new features added
+	- My original modules from 2017-2019 have been updated with some new features added
+	- AuctionHouseBot
+	- AutoBalance
+	- BetterItemReloading
+	- CongratsOnLevel
+	- CustomLogin
+	- CustomServer
+	- DuelReset
+	- DungeonRespawn
+	- Eluna
+	- GMIsland
+	- ItemLevelUp
+	- MoneyForKills
+	- NPCAllMounts
+	- NPCBeastmaster
+	- NPCBuffer
+	- NPCCodebox
+	- NPCEnchanter
+	- NPCGambler
+	- NPCLoremaster
+	- NPCTrollop
+	- Playerbots
+	- StarterGuild
+	- TimeShift
+	- Transmog
+	- WarEffort 		
 - NPC
 	- Koiter's armor has been updated to correct the one-shoulder armor variant
 	- Undercity Guardians have returned to their rightful place in the Undercity
@@ -100,7 +125,7 @@ May your journeys be rich with discovery.
 	- The Bengal Tiger Cave area has been updated	
 - And many more!
 
-Beyond the awakening of StygianCore, I’ve also undertaken the task of mending lingering imperfections. Over time, various bugs introduced by the AzerothCore community found their way into [my original projects/modules](https://stygianthebest.github.io/projects/){:target="_blank"}. These include the [Beastmaster NPC](https://stygianthebest.github.io/projects/mod-npcbeastmaster/){:target="_blank"}, [Codebox NPC](https://stygianthebest.github.io/projects/mod-npccodebox/){:target="_blank"}, [MoneyForKills](https://stygianthebest.github.io/projects/mod-moneyforkills/){:target="_blank"}, and others that have now been rectified.
+Beyond the awakening of StygianCore, I’ve also undertaken the task of mending lingering imperfections. Over time, various bugs introduced by the AzerothCore community found their way into [my original projects/modules released between 2017 and 2019](https://stygianthebest.github.io/projects/){:target="_blank"}. These include the [Beastmaster NPC](https://stygianthebest.github.io/projects/mod-npcbeastmaster/){:target="_blank"}, [Codebox NPC](https://stygianthebest.github.io/projects/mod-npccodebox/){:target="_blank"}, [MoneyForKills](https://stygianthebest.github.io/projects/mod-moneyforkills/){:target="_blank"}, and others that have now been rectified.
 
 Furthermore, I’ve restored all the rightful credits that were stripped from these works before their inclusion in the official AzerothCore repository. It's my hope that the stewards of the AzerothCore repository will exercise greater vigilance against such practices, as neglecting license integrity ultimately diminishes the community for all.
 
