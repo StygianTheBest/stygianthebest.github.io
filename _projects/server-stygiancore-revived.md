@@ -123,7 +123,7 @@ May your journeys be rich with discovery.
 	- Hyjal has been updated with Reznik's awesome changes
 	- Nefarian's balcony is accessible in Blackrock Mountain
 	- The Bengal Tiger Cave area has been updated	
-- And many more!
+	- And many more!
 
 Beyond the awakening of StygianCore, I’ve also undertaken the task of mending lingering imperfections. Over time, various bugs introduced by the AzerothCore community found their way into [my original projects/modules released between 2017 and 2019](https://stygianthebest.github.io/projects/){:target="_blank"}. These include the [Beastmaster NPC](https://stygianthebest.github.io/projects/mod-npcbeastmaster/){:target="_blank"}, [Codebox NPC](https://stygianthebest.github.io/projects/mod-npccodebox/){:target="_blank"}, [MoneyForKills](https://stygianthebest.github.io/projects/mod-moneyforkills/){:target="_blank"}, and others that have now been rectified.
 
@@ -138,7 +138,10 @@ Much of the original documentation still applies, so be sure to read it at the o
 - Playerbots can crash the server at random for various reasons
 	- Set your instance to auto-restart in StygianCoreTools
 	- [Playerbots Github Issue Tracker](https://github.com/liyunfan1223/mod-playerbots/issues){:target="_blank"}
- 
+- Apache webpage registration is broken and out of date. This was rarely used.
+	- To fix PHP needs to be upgraded and registration page code updated.
+	- Check [AzerothCore-RegistrationWeb](https://github.com/LeuanN/AzerothCore-RegistrationWeb/tree/main) for the new implementation.
+
 ## SCREENSHOTS
 
 {:.image-caption}
