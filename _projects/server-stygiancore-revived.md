@@ -204,7 +204,7 @@ Rest In Peace.. See you on the other side brother.
 
 ## THE GOAL
 
-StygianCore is a custom build, a unique forge of the AzerothCore MMO server emulator. Last autumn, I pledged to release a repack of this server, a haven for friends to host in their own domains. More than that, I sought to offer a captivating leveling server, ideal for solitary journeys or the camaraderie of 4-10 players. My aim was to aid those yearning for the echoes of the past and to guide aspiring hands in development, scripting, and the crafting of their own server sagas.
+StygianCore is a custom build, a unique forge of the AzerothCore MMO server emulator. In the autumn of 2017, I pledged to release a repack of this server, a haven for friends to host in their own domains. More than that, I sought to offer a captivating leveling server, ideal for solitary journeys or the camaraderie of 4-10 players. My aim was to aid those yearning for the echoes of the past and to guide aspiring hands in development, scripting, and the crafting of their own server sagas.
 
 Within, you will discover custom tools and ancient texts for tending to the game's very essence—its database. These also empower the automation of archive, save, and restoration, vital for sandboxing, testing, and the ongoing crafting of this world.
 
