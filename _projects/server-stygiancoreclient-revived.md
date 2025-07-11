@@ -22,6 +22,11 @@ description: >
 ## DESCRIPTION
 This patch is for use with [StygianCore v2025.07.04 | Playerbot(08b6701f55af) Branch](https://github.com/StygianTheBest/StygianCorePlayerbots){:target="_blank"}
 
+>Crème de la crème repack and replayability. Stygian's is highly curated. This is a Mona Lisa|Van Gogh of repacks.
+>I still keep and play your 2019 version.
+>Thanks.
+>- qwertytop
+
 To venture into the reborn StygianCore, <font color='Red'>a custom HD Client patch is required</font>. This client patch is a refined version of [Loriendal's HD 335A Client](https://discord.com/invite/wotlk-3-3-5a-hd-client-858041817043042364){:target="_blank"} with vital additions from [Reznik's WOTLK Boost](https://reznik.fandom.com/wiki/WotLK_Boost){:target="_blank"}. It is designed to be copied into a default WoW client installation and is the key to unlocking the full experience. While my original StygianCore client from 2019 already had many of these features, the updates and extras provided by these versions were preferred as a base for the new release of StygianCore. 
 
 I discovered Loriendal's textures and models held a more recent feel, while Reznik's version offered a trove of unique features. Combining elements from both was no small feat, requiring considerable effort. While you're free to use either client, you'll need to retain the PATCH-Y and PATCH-Z from the StygianCore HD Client for proper function; otherwise, you might encounter anomalies. Perhaps one day, these creators might unite their efforts, offering a fully integrated client to the community—a subtle suggestion for future endeavors!

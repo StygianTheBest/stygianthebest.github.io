@@ -26,6 +26,11 @@ description: >
 # GREETINGS
 ## StygianCore <span style="font-weight: bold; color: green;">v2025.07.04</span>
 
+>Crème de la crème repack and replayability. Stygian's is highly curated. This is a Mona Lisa|Van Gogh of repacks.
+>I still keep and play your 2019 version.
+>Thanks.
+>- qwertytop
+
 After many seasons slumbering, the StygianCore repack and its ancient modules have been reforged! It now aligns with the latest [AzerothCore Playerbots](https://github.com/StygianTheBest/StygianCorePlayerbots){:target="_blank"} branch, infused with new power.
 
 This updated iteration retains the core essence and valued features of the original, now bolstered by the presence of Playerbots, a bustling Auction House bot, and other potent enhancements.
