@@ -37,7 +37,19 @@ Though numerous clients are available, my exhaustive testing revealed Loriendal'
 
 Any future content updates or bug fixes will be announced and available as downloadable patches right here on the website. Now, go forth and enjoy!
 
-## DOWNLOAD
+## MENU
+- [Download](#download)
+- [Files](#files)
+- [Installation](#install)
+- [Client Reference](#reference)
+- [Privacy](#privacy)
+- [Extras](#extras)
+- [Bugs](#bugs)
+- [Screenshots](#screenshots)
+- [Additional Info](#additional)
+- [Credits](#credits)
+
+## <a name="download"></a>DOWNLOAD
 - **StygianCore Repack <font style="color: blue;">v2025.07.04</font>**
   - [Download from MEGA @ 1.97GB](https://rebrand.ly/sg1pfvc){:target="_blank"}
 - **StygianCore HD Client Patch <font style="color: blue;">v2025.07.04</font>**
@@ -47,7 +59,7 @@ Any future content updates or bug fixes will be announced and available as downl
   - StygianCore_HD_Client_2025_Patch.zip.003 - [Download from MEGA @ 2.02GB](https://rebrand.ly/998ba5){:target="_blank"}
   
 
-## FILES
+## <a name="files"></a>FILES
 - 1-EnableLoginSC.bat - This enables original StygianCore Custom login screens only
 - 2-EnableLoginXP.bat - This enables the WoW Expansion login screens only
 - 2-LoginXPConfig.lua - Edit to customize which Expansion login screens are enabled
@@ -57,7 +69,7 @@ Any future content updates or bug fixes will be announced and available as downl
 - patchmenu.exe       - Enable/Disable various 335 HD patch features
 
 
-## INSTALLATION:
+## <a name="install"></a>INSTALLATION
 1. Install the ChromieCraft client from the [ChromieCraft Website](https://www.chromiecraft.com/en/downloads/){:target="_blank"}
 
 2. Unzip or copy the StygianCore_HD_Client_2025_Patch.zip.001-.003 archive contents into the ChromieCraft folder overwriting existing files
@@ -102,7 +114,7 @@ Any future content updates or bug fixes will be announced and available as downl
 	- This file is also used if you want to update servers/accounts
 	
 
-# HD CLIENT REFERENCE
+# <a name="reference"></a>HD CLIENT REFERENCE
 
 ## STYGIANCORE ACCOUNTS
 ### These are the default StygianCore server accounts
@@ -169,7 +181,7 @@ Any future content updates or bug fixes will be announced and available as downl
 	- Dead Tauren male skeletons are replaced with juicy steaks (players only)
 
 
-## PRIVACY
+## <a name="privacy"></a>PRIVACY
 ### GLUESTRINGS.LUA - Replaced all outside references below with localhost to avoid connections to outside servers 
 - www.worldofwarcraft.com
 - signup.worldofwarcraft.com
@@ -181,7 +193,7 @@ Any future content updates or bug fixes will be announced and available as downl
 - beta.worldofwarcraft.com
 - www.blizzard.com
 
-## EXTRA
+## <a name="extra"></a>EXTRAS
 	
 - wow.exe
 	- Large Address Aware (Will Not Crash In Dalaran!)
@@ -193,7 +205,7 @@ Any future content updates or bug fixes will be announced and available as downl
 - wow_original.exe 
 	- Added: Large Address Aware (Will Not Crash In Dalaran!)
 
-## BUGS
+## <a name="bugs"></a>BUGS
 ### <font color='Red'>Known bugs and workarounds</font>
 
 - Carbonite Addon - DO NOT "move minimap into Carbonite map" as it breaks the addon
@@ -204,7 +216,7 @@ Any future content updates or bug fixes will be announced and available as downl
 	- Set your instance to auto-restart in StygianCoreTools
 	- [Playerbots Github Issue Tracker](https://github.com/liyunfan1223/mod-playerbots/issues){:target="_blank"}
 
-## Screenshots
+## <a name="screenshots"></a>SCREENSHOTS
 ### Here's a few screenshots, but you can also check the other client galleries linked below for many more.
 
 {:.image-caption}
@@ -265,7 +277,7 @@ Any future content updates or bug fixes will be announced and available as downl
 
 
 
-# ADDITIONAL CLIENT INFO
+# <a name="additional"></a>ADDITIONAL CLIENT INFO
 ## PATCH LOADING ORDER
 ### Assuming you have a Wrath of the Lich King client 3.3.5a is as follows:
 
@@ -328,7 +340,7 @@ Thus the highest priority would be the file patch_Z.mpq inside the "Data\enUS" f
 - PATCH-Y.MPQ - Enhanced Blood Splatter
 - PATCH-Z.MPQ - StygianCore Custom Content by StygianTheBest
 
-## ADDITIONAL CREDITS
+## <a name="credits"></a>CREDITS
 
 - [Blizzard Entertainment](http://blizzard.com){:target="_blank"}
 - [Michel Martin Koiter](https://web.archive.org/web/20160329220904/http://www.sonsofthestorm.com:80/memorial_twincruiser.html){:target="_blank"}

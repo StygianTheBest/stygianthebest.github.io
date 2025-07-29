@@ -40,7 +40,19 @@ To venture into the reborn StygianCore, __a custom HD Client patch is required__
 This release is for ALL of you that reached out through the years seeking StygianCore, sending your appreciation of it, or offered tributes. 
 May your journeys be rich with discovery.
 
-## DOWNLOAD
+## MENU
+- [Download](#download)
+- [QuickStart](#quickstart)
+- [Accounts](#accounts)
+- [Additions/Fixes](#additions)
+- [Docs](#docs)
+- [Bugs](#bugs)
+- [Screenshots](#screenshots)
+- [Notes](#notes)
+- [Credits](#credits)
+
+
+## <a name="download"></a>DOWNLOAD
 ### <font color='Red'>The repack and the client are REQUIRED to run StygianCore!</font>
 
 - **StygianCore Repack <font style="color: blue;">v2025.07.04</font>**
@@ -49,14 +61,14 @@ May your journeys be rich with discovery.
 - **StygianCore HD Client Patch <font style="color: blue;">v2025.07.04</font>**
   - [Download from Project Page](/projects/server-stygiancoreclient-revived/)
   
-## QUICKSTART
+## <a name="quickstart"></a>QUICKSTART
 - From the root folder, launch StygianCoreControls.exe
 - Click the Book icon, uncheck 'Hide Processes' if desired
 - Start the Database, AuthServer, then WorldServer allowing all thru the firewall if prompted
 - By default Playerbots are enabled with 500 bots.
 	- Change this is in Server/Core/configs/modules/playerbots.conf
 		
-## STYGIANCORE ACCOUNTS
+## <a name="accounts"></a>STYGIANCORE ACCOUNTS
 ### These are the default StygianCore server accounts
 
 - Server administrator with both Horde and Alliance characters
@@ -69,7 +81,7 @@ May your journeys be rich with discovery.
 	- Login: ahbot
 	- Password: wow
 
-## ADDITIONS AND FIXES FOR V2025.07.04
+## <a name="additions"></a>ADDITIONS AND FIXES FOR V2025.07.04
 - Core
 	- Updated to AzerothCore rev. 08b6701f55af 2025-06-18 14:55:42 -0400 (Playerbot branch)
 	- A new __REQUIRED__ version of my [StygianCore HD Client](/projects/server-stygiancoreclient-revived/){:target="_blank"}
@@ -134,11 +146,11 @@ Beyond the awakening of StygianCore, I’ve also undertaken the task of mending 
 
 Furthermore, I’ve restored all the rightful credits that were stripped from these works before their inclusion in the official AzerothCore repository. It's my hope that the stewards of the AzerothCore repository will exercise greater vigilance against such practices, as neglecting license integrity ultimately diminishes the community for all.
 
-## READ THE DOCS!
+## <a name="docs"></a>READ THE DOCS!
 
 Much of the original documentation still applies, so be sure to read it at the original [StygianCore Release](https://stygianthebest.github.io/projects/server-stygiancore/) project page. Documentation for the this repack and its contents can also be found throughout the documents, code, SQL, and scripts. I've tried to be as detailed as possible to diminish the learning curve and get new users up and running quickly.
 
-## BUGS
+## <a name="bugs"></a>BUGS
 ### <font color='Red'>Known bugs and workarounds</font>
 - Playerbots can crash the server at random for various reasons
 	- Set your instance to auto-restart in StygianCoreTools
@@ -149,7 +161,7 @@ Much of the original documentation still applies, so be sure to read it at the o
 	- To fix PHP needs to be upgraded and registration page code updated
 	- Check [AzerothCore-RegistrationWeb](https://github.com/LeuanN/AzerothCore-RegistrationWeb/tree/main){:target="_blank"} for the new implementation
 
-## SCREENSHOTS
+## <a name="screenshots"></a>SCREENSHOTS
 
 {:.image-caption}
 *Default Guildmaster Characters for Alliance & Horde*
@@ -180,7 +192,7 @@ Much of the original documentation still applies, so be sure to read it at the o
 ![Loremaster](https://stygianthebest.github.io/assets/img/projects/hd-client/stygiancore_loremaster_2025.jpg){:.figure}
 
 
-## THE END IS NIGH
+## <a name="notes"></a>THE END IS NIGH
 _This will likely be the last release of StygianCore_ aside from possible content updates or bug fixes. My main reason to come back and update StygianCore was to incorporate the great [Playerbots](https://github.com/liyunfan1223/mod-playerbots){:target="_blank"} branch of AzerothCore by [Yunfan Li](https://github.com/liyunfan1223){:target="_blank"}. 
 
 The best way to keep up-to-date on any changes is to follow this website and the StygianCore repo: [Commits](https://github.com/StygianTheBest/StygianCorePlayerbots/commits/master){:target="_blank"} - [Bugs](https://github.com/StygianTheBest/StygianCorePlayerbots/issues){:target="_blank"}
@@ -234,7 +246,7 @@ When I left the scene in 2019, I had completed my task, and I vowed to never loo
 
 Engaging in the modding scene carries a considerable risk of addiction, consuming an inordinate amount of your time. For the vast majority of us who operate within legal boundaries and not through illicit private servers, these extensive efforts often culminate in a negligible 1% improvement in overall game enjoyment. Therefore, exercise extreme caution and prioritize your mental and physical well-being above all else when venturing into this domain.
 
-## CREDITS
+## <a name="credits"></a>CREDITS
 
 ![Styx](https://stygianthebest.github.io/assets/img/avatar/avatar-128.jpg "Styx"){:.figure}![StygianCore](https://stygianthebest.github.io/assets/img/projects/stygiancore/StygianCore.png "StygianCore"){:.figure}
 
