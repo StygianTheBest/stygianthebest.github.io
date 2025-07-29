@@ -144,6 +144,8 @@ Much of the original documentation still applies, so be sure to read it at the o
 	- Set your instance to auto-restart in StygianCoreTools
 	- [Playerbots Github Issue Tracker](https://github.com/liyunfan1223/mod-playerbots/issues){:target="_blank"}
 - Apache webpage registration is broken and out of date which was rarely used.
+	- I was informed the _./server/apache/bin_ folder is missing in the archive
+		- Replace with any portable install of Apache server
 	- To fix PHP needs to be upgraded and registration page code updated
 	- Check [AzerothCore-RegistrationWeb](https://github.com/LeuanN/AzerothCore-RegistrationWeb/tree/main){:target="_blank"} for the new implementation
 
