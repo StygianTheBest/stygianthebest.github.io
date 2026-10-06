@@ -18,7 +18,7 @@ screenshot:
 description: >
   A 3.3.5a Client Upgrade by [StygianTheBest](https://github.com/StygianTheBest/){:target="_blank"}.
 ---
- 
+
 ## DESCRIPTION
 This patch is for use with [StygianCore v2025.07.04 | Playerbot(08b6701f55af) Branch](https://github.com/StygianTheBest/StygianCorePlayerbots){:target="_blank"}
 
@@ -39,12 +39,12 @@ Any future content updates or bug fixes will be announced and available as downl
 
 ## MENU
 - [Download](#download)
+- [Bugs](#bugs)
 - [Files](#files)
 - [Installation](#install)
 - [Client Reference](#reference)
 - [Privacy](#privacy)
 - [Extras](#extras)
-- [Bugs](#bugs)
 - [Screenshots](#screenshots)
 - [Additional Info](#additional)
 - [Credits](#credits)
@@ -58,6 +58,9 @@ Any future content updates or bug fixes will be announced and available as downl
   - StygianCore_HD_Client_2025_Patch.zip.002 - [Download from MEGA @ 4.98GB](https://rebrand.ly/3c2b01){:target="_blank"}
   - StygianCore_HD_Client_2025_Patch.zip.003 - [Download from MEGA @ 2.02GB](https://rebrand.ly/998ba5){:target="_blank"}
   
+## BUG REPORTS
+### <font color='Red'>Please read this post for reported bugs and solutions.</font>
+- [Bug Reports]({% post_url 2026-10-06-bug-reports %})  
 
 ## <a name="files"></a>FILES
 - 1-EnableLoginSC.bat - This enables original StygianCore Custom login screens only
@@ -128,6 +131,9 @@ Any future content updates or bug fixes will be announced and available as downl
 - AHBot used by the system to run the AuctionHouse Bot
 	- Login: ahbot
 	- Password: wow
+- MySQL Database
+	- Login: root
+	- Password: zxc	
 
 ## DATA/PATCH-Y.MPQ
 ### Features from Reznik's WOTLK Boost/WotLK 335 HD Client
@@ -204,17 +210,6 @@ Any future content updates or bug fixes will be announced and available as downl
 	- The Ability To Partially Use Patched Lua Files
 - wow_original.exe 
 	- Added: Large Address Aware (Will Not Crash In Dalaran!)
-
-## <a name="bugs"></a>BUGS
-### <font color='Red'>Known bugs and workarounds</font>
-
-- Carbonite Addon - DO NOT "move minimap into Carbonite map" as it breaks the addon
-- If you are in the Emerald Dream, Programmer Isle, or other custom zones, you may 
-  not be able to use the map teleport functions provided the custom Carbonite addon. 
- My custom TomTom Teleport addon will still work fine.
-- Playerbots can crash the server at random for various reasons
-	- Set your instance to auto-restart in StygianCoreTools
-	- [Playerbots Github Issue Tracker](https://github.com/liyunfan1223/mod-playerbots/issues){:target="_blank"}
 
 ## <a name="screenshots"></a>SCREENSHOTS
 ### Here's a few screenshots, but you can also check the other client galleries linked below for many more.
@@ -304,7 +299,7 @@ Thus the highest priority would be the file patch_Z.mpq inside the "Data\enUS" f
 - PATCH-K - SL Character Creation
 - PATCH-M - Dungeon Maps
 - PATCH-N - Dungeon Mini Maps (Dangerous)
-- PATCH-S - New Spells
+- PATCH-S - New Spells (<font color='Red'>Bugged</font> - [See Bug Reports]({% post_url 2026-10-06-bug-reports %}))
 - PATCH-U - Undead Without Bones
 - PATCH-W - New Water
 - PATCH-X - New Sky Textures

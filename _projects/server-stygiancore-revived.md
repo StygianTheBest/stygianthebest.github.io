@@ -44,9 +44,9 @@ May your journeys be rich with discovery.
 - [Download](#download)
 - [QuickStart](#quickstart)
 - [Accounts](#accounts)
+- [Bugs](#bugs)
 - [Additions/Fixes](#additions)
 - [Docs](#docs)
-- [Bugs](#bugs)
 - [Screenshots](#screenshots)
 - [Notes](#notes)
 - [Credits](#credits)
@@ -80,6 +80,10 @@ May your journeys be rich with discovery.
 - AHBot used by the system to run the AuctionHouse Bot
 	- Login: ahbot
 	- Password: wow
+
+## <a name="bugs"></a>BUGS
+### <font color='Red'>Please read this post for reported bugs and solutions.</font>
+- [Bug Reports]({% post_url 2026-10-06-bug-reports %})
 
 ## <a name="additions"></a>ADDITIONS AND FIXES FOR V2025.07.04
 - Core
@@ -149,17 +153,6 @@ Furthermore, I’ve restored all the rightful credits that were stripped from th
 ## <a name="docs"></a>READ THE DOCS!
 
 Much of the original documentation still applies, so be sure to read it at the original [StygianCore Release](https://stygianthebest.github.io/projects/server-stygiancore/) project page. Documentation for the this repack and its contents can also be found throughout the documents, code, SQL, and scripts. I've tried to be as detailed as possible to diminish the learning curve and get new users up and running quickly.
-
-## <a name="bugs"></a>BUGS
-### <font color='Red'>Known bugs and workarounds</font>
-- Playerbots can crash the server at random for various reasons
-	- Set your instance to auto-restart in StygianCoreTools
-	- [Playerbots Github Issue Tracker](https://github.com/liyunfan1223/mod-playerbots/issues){:target="_blank"}
-- Apache webpage registration is broken and out of date which was rarely used.
-	- I was informed the _./server/apache/bin_ folder is missing in the archive
-		- Replace with any portable install of Apache server
-	- To fix PHP needs to be upgraded and registration page code updated
-	- Check [AzerothCore-RegistrationWeb](https://github.com/LeuanN/AzerothCore-RegistrationWeb/tree/main){:target="_blank"} for the new implementation
 
 ## <a name="screenshots"></a>SCREENSHOTS
 

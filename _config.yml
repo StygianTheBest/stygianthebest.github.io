@@ -116,6 +116,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - /_projects/_TEMPLATE.md
+  - jb.bat
+  - js.bat
+  - .bundle
+  - vendor
   
 kramdown:
   footnote_backlink: '&#x21a9;&#xfe0e;'

@@ -43,3 +43,7 @@ node_modules
 .sass-cache
 .jekyll-metadata
 *.gem
+
+# Bundler local install/config
+.bundle/
+vendor/
